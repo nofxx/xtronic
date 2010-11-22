@@ -7,5 +7,4 @@ Use'em to get the correct resistance, ~5kΩ and ~500Ω for fine tune.
 
 
 
-
-![PCB](img/pwdbrd.png)
+![PCB](http://github.com/nofxx/xtronic/raw/master/pwdb/img/pwdbrd.png)
