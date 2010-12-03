@@ -14,11 +14,14 @@
 #define DAY  86400000
 #define MAX  50
 
-const int infoPin = 13;
-const int shootPin = 12;
-const int focusPin = 11;
-const int shootBtn = 10;
-const int focusBtn = 9;
+#define CAM_DELAY 750
+
+const int phonyGND = 7;
+const int shootLed = 6;
+const int shootPin = 5;
+const int focusPin = 4;
+const int shootBtn = 3;
+const int extraLed = 2;
 
 // Wireless configuration parameters ----------------------------------------
 unsigned char local_ip[] = {192,168,1,2}; // IP address of WiShield
@@ -51,16 +54,18 @@ unsigned char security_passphrase_len;
 
 void shoot() {
   digitalWrite(shootPin, HIGH);
-  digitalWrite(infoPin, HIGH);
-  delay(500);
+  digitalWrite(shootLed, HIGH);
+  delay(CAM_DELAY);
   digitalWrite(shootPin, LOW);
-  digitalWrite(infoPin, LOW);
+  digitalWrite(shootLed, LOW);
 }
 
 void focus() {
   digitalWrite(focusPin, HIGH);
-  delay(500);
+  digitalWrite(extraLed, HIGH);
+  delay(CAM_DELAY);
   digitalWrite(focusPin, LOW);
+  digitalWrite(extraLed, LOW);
 }
 
 const prog_char webpage[] PROGMEM = {"<!DOCTYPE html PUBLIC '-//W3C//DTD XHTML 1.0 Transitional//EN''http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd'><html xmlns='http://www.w3.org/1999/xhtml' xml:lang='en' lang='en'><head><title> Shooter! </title></head><body><h1> Shooter! </h1><div><form action='./s' method='GET'><input type='submit' value='Shoot!'></input></form><form action='./f' method='GET'><input type='submit' value='Focus'></input></form></div><div><form action='./' method='GET'><input type='text' name='delay'></input><div>Loop<input type='checkbox' name='loop' value='t' /><input type='submit' value='ok'></input></form></div></div>"};
@@ -112,11 +117,14 @@ boolean sendMyPage(char* URL) {
 
 void setup() {
 
-  pinMode(infoPin, OUTPUT);
+  pinMode(phonyGND, OUTPUT);
+  pinMode(shootLed, OUTPUT);
   pinMode(shootPin, OUTPUT);
   pinMode(focusPin, OUTPUT);
   pinMode(shootBtn, INPUT);
-  pinMode(focusBtn, INPUT);
+  pinMode(extraLed, OUTPUT);
+
+  digitalWrite(phonyGND, LOW);
 
   // Initialize WiServer and have it use the sendMyPage function to serve pages
   WiServer.init(sendMyPage);
