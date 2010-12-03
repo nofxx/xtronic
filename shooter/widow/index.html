@@ -3,19 +3,70 @@
 <html xmlns='http://www.w3.org/1999/xhtml' xml:lang='en' lang='en'>
   <head>
     <title> Shooter! </title>
+    <style type='text/css'>
+
+      body {
+      background-color: #fbfbfb;
+      color: #666;
+      text-align: center;
+      font-family: 'Titillium800', 'Trebuchet MS', Arial, sans-serif;
+      line-height: 20px;
+      position: relative;
+      margin: 0;
+      border-bottom: 1px solid #E0E0E0;
+      padding: 8px 0 8px 10px;
+      font-size: 20px;
+      font-weight: bold;
+      list-style: none;
+      }
+
+      .buttons {
+      padding: 10px 10px 10px 10px;
+      }
+
+      .button {
+      overflow: hidden;
+      margin: 10px 10px;
+      border-width: 0 5px;
+      padding: 0 18px;
+      width: auto;
+      height: 70px;
+      text-shadow: 1px 1px 0 #222;
+      font-size: 30px;
+      font-weight: bold;
+      color: #888;
+      text-shadow: rgba(0, 0, 0, 0.6) 0px -1px 0;
+      text-overflow: ellipsis;
+      text-decoration: none;
+      white-space: nowrap;
+      -moz-border-radius: 3px 3px 3px 3px;
+      -webkit-border-radius: 3px 3px 3px 3px;
+      text-shadow: rgba(255, 255, 255, 0.7) 0 1px 0;
+      }
+
+      .text {
+      box-sizing: border-box;
+      -webkit-box-sizing: border-box;
+      margin: 8px 0 0 0;
+      padding: 6px 6px 6px 44px;
+      font-size: 16px;
+      font-weight: normal;
+      }
+
+    </style>
   </head>
   <body>
   <h1> Shooter! </h1>
-    <div>
-    <form action='./s' method='GET'><input type='submit' value='Shoot!'></input></form>
-    <form action='./f' method='GET'><input type='submit' value='Focus'></input></form>
-    </div>    <div>
+    <div class='buttons'>
+    <form action='./s' method='GET'><input class='button' type='submit' value='Shoot!'></input></form>
+    <form action='./f' method='GET'><input class='button' type='submit' value='Focus'></input></form>
+    </div>    <div class='buttons'>
     <form action='./' method='GET'>
-    <input type='text' name='delay'></input>
+    <input class='text' type='text' name='delay'></input>
     <div>
-    Loop
-    <input type='checkbox' name='loop' value='t' />
-    <input type='submit' value='ok'></input>
+    <label>Loop
+    <input type='checkbox' name='loop' value='t' /></label>
+    <input class='button' type='submit' value='ok'></input>
     </form>
     </div>    </div>
   </body>
