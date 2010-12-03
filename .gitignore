@@ -23,3 +23,6 @@ build-cli/
 *.b#*
 *.s#*
 semantic.cache
+*.bak
+*.000
+$savepcb.brd

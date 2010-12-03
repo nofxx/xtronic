@@ -1,0 +1,197 @@
+# EESchema Netlist Version 1.1 created  Fri 03 Dec 2010 12:30:54 AM BRST
+(
+ ( /4CF847A3 C1 C1 C
+  ( 1 N-000031 )
+  ( 2 N-000001 )
+ )
+ ( /4CF847AD C1 C2 C
+  ( 1 N-000032 )
+  ( 2 N-000001 )
+ )
+ ( /4CF847E8 C1 C3 C
+  ( 1 N-000025 )
+  ( 2 N-000001 )
+ )
+ ( /4CF84F06 C1 C4 C
+  ( 1 ? )
+  ( 2 N-000001 )
+ )
+ ( /4CF84F0C C2V8 C5 C
+  ( 1 ? )
+  ( 2 N-000001 )
+ )
+ ( /4CF84F42 C2V8 C6 C
+  ( 1 ? )
+  ( 2 N-000001 )
+ )
+ ( /4CF85318 C1 C7 C
+  ( 1 ? )
+  ( 2 N-000001 )
+ )
+ ( /4CF84ED5 D3 D1 DIODE
+  ( 1 N-000003 )
+  ( 2 N-000004 )
+ )
+ ( /4CF852E1 LED-3MM D2 LED
+  ( 1 N-000028 )
+  ( 2 N-000001 )
+ )
+ ( /4CF84687 DIP-28__300_ELL IC1 ATMEGA8-PU
+  ( 1 N-000007 )
+  ( 2 N-000026 )
+  ( 3 N-000027 )
+  ( 4 N-000024 )
+  ( 5 N-000029 )
+  ( 6 N-000030 )
+  ( 7 N-000025 )
+  ( 8 N-000001 )
+  ( 9 N-000031 )
+  ( 10 N-000032 )
+  ( 11 N-000033 )
+  ( 12 N-000034 )
+  ( 13 N-000023 )
+  ( 14 N-000014 )
+  ( 15 N-000016 )
+  ( 16 N-000018 )
+  ( 17 N-000005 )
+  ( 18 N-000021 )
+  ( 19 N-000022 )
+  ( 20 N-000025 )
+  ( 21 N-000006 )
+  ( 22 N-000001 )
+  ( 23 N-000013 )
+  ( 24 N-000015 )
+  ( 25 N-000017 )
+  ( 26 N-000019 )
+  ( 27 N-000020 )
+  ( 28 N-000012 )
+ )
+ ( /4CF84EA6 CVAR3X2 K1 CONN_3
+  ( 1 N-000001 )
+  ( 2 N-000003 )
+  ( 3 N-000001 )
+ )
+ ( /4CF83E9B SIL-8 P1 ADC
+  ( 1 N-000026 )
+  ( 2 N-000027 )
+  ( 3 N-000024 )
+  ( 4 N-000029 )
+  ( 5 N-000030 )
+  ( 6 N-000033 )
+  ( 7 N-000034 )
+  ( 8 N-000023 )
+ )
+ ( /4CF84988 SIL-8 P2 CONN_8
+  ( 1 N-000014 )
+  ( 2 N-000016 )
+  ( 3 N-000018 )
+  ( 4 N-000005 )
+  ( 5 N-000021 )
+  ( 6 N-000022 )
+  ( 7 N-000001 )
+  ( 8 N-000006 )
+ )
+ ( /4CF8513C SIL-6 P3 CONN_6
+  ( 1 N-000007 )
+  ( 2 ? )
+  ( 3 N-000025 )
+  ( 4 N-000001 )
+  ( 5 N-000001 )
+  ( 6 ? )
+ )
+ ( /4CF85130 SIL-6 P4 CONN_6
+  ( 1 N-000013 )
+  ( 2 N-000015 )
+  ( 3 N-000017 )
+  ( 4 N-000019 )
+  ( 5 N-000020 )
+  ( 6 N-000012 )
+ )
+ ( /4CF8481A R3 R1 R
+  ( 1 N-000025 )
+  ( 2 N-000007 )
+ )
+ ( /4CF852D9 R3 R2 R
+  ( 1 N-000022 )
+  ( 2 N-000028 )
+ )
+ ( /4CF85056 SW_PUSH_SMALL SW1 DPST
+  ( 1 N-000007 )
+  ( 2 N-000001 )
+  ( 3 N-000007 )
+  ( 4 N-000001 )
+ )
+ ( /4CF84CFD LM78XXV U1 LM7805
+  ( GND N-000001 )
+  ( VI N-000004 )
+  ( VO N-000025 )
+ )
+ ( /4CF844D3 C2 X1 CRYSTAL
+  ( 1 N-000031 )
+  ( 2 N-000032 )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$component C2
+ SM*
+ C?
+ C1-1
+$endlist
+$component C3
+ SM*
+ C?
+ C1-1
+$endlist
+$component C4
+ SM*
+ C?
+ C1-1
+$endlist
+$component C5
+ SM*
+ C?
+ C1-1
+$endlist
+$component C6
+ SM*
+ C?
+ C1-1
+$endlist
+$component C7
+ SM*
+ C?
+ C1-1
+$endlist
+$component D1
+ D?
+ S*
+$endlist
+$component D2
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$endfootprintlist
+}
