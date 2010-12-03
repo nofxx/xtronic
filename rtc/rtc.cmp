@@ -1,0 +1,38 @@
+Cmp-Mod V01 Created by CvPCB (2010-04-21 BZR 23xx)-stable date = Tue 23 Nov 2010 04:35:32 PM BRST
+
+BeginCmp
+TimeStamp = /4CEC003E;
+Reference = BT1;
+ValeurCmp = BATTERY;
+IdModule  = CR2032H;
+EndCmp
+
+BeginCmp
+TimeStamp = /4CEBFFA1;
+Reference = C1;
+ValeurCmp = C;
+IdModule  = C2;
+EndCmp
+
+BeginCmp
+TimeStamp = /4CEBFF72;
+Reference = IC1;
+ValeurCmp = PCF8583;
+IdModule  = DIP-8__300_ELL;
+EndCmp
+
+BeginCmp
+TimeStamp = /4CEBFFFA;
+Reference = R1;
+ValeurCmp = R;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /4CEBFDA7;
+Reference = X1;
+ValeurCmp = CRYSTAL;
+IdModule  = C2;
+EndCmp
+
+EndListe

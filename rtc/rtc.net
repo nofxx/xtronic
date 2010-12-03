@@ -1,0 +1,44 @@
+# EESchema Netlist Version 1.1 created  Tue 23 Nov 2010 04:35:32 PM BRST
+(
+ ( /4CEC003E CR2032H BT1 BATTERY
+  ( 1 N-000001 )
+  ( 2 N-000002 )
+ )
+ ( /4CEBFFA1 C2 C1 C
+  ( 1 N-000004 )
+  ( 2 N-000002 )
+ )
+ ( /4CEBFF72 DIP-8__300_ELL IC1 PCF8583
+  ( 1 N-000007 )
+  ( 2 N-000008 )
+  ( 3 N-000001 )
+  ( 4 N-000002 )
+  ( 5 ? )
+  ( 6 ? )
+  ( 7 N-000003 )
+  ( 8 N-000004 )
+ )
+ ( /4CEBFFFA R3 R1 R
+  ( 1 N-000004 )
+  ( 2 N-000003 )
+ )
+ ( /4CEBFDA7 C2 X1 CRYSTAL
+  ( 1 N-000007 )
+  ( 2 N-000008 )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$endfootprintlist
+}
