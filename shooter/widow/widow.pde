@@ -70,7 +70,7 @@ void focus() {
 
 const prog_char webpage[] PROGMEM = {"<!DOCTYPE html PUBLIC '-//W3C//DTD XHTML 1.0 Transitional//EN''http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd'><html xmlns='http://www.w3.org/1999/xhtml' xml:lang='en' lang='en'><head><title> Shooter! </title></head><body><h1> Shooter! </h1><div><form action='./s' method='GET'><input type='submit' value='Shoot!'></input></form><form action='./f' method='GET'><input type='submit' value='Focus'></input></form></div><div><form action='./' method='GET'><input type='text' name='delay'></input><div>Loop<input type='checkbox' name='loop' value='t' /><input type='submit' value='ok'></input></form></div></div>"};
 
-void printProgStr(const prog_char str[])
+void printFromMem(const prog_char str[])
 {
   char c;
   if(!str) return;
@@ -84,7 +84,7 @@ boolean sendMyPage(char* URL) {
 
   // WiServer.print(webpage);
   //print PROGMEM
-  printProgStr(webpage);
+  printFromMem(webpage);
 
   WiServer.print(URL);
 
@@ -117,7 +117,9 @@ boolean sendMyPage(char* URL) {
 
 void setup() {
 
+  // Use digital pin 7 as GND, WiShield takes 13~8.
   pinMode(phonyGND, OUTPUT);
+
   pinMode(shootLed, OUTPUT);
   pinMode(shootPin, OUTPUT);
   pinMode(focusPin, OUTPUT);
@@ -134,10 +136,8 @@ void setup() {
 }
 
 void loop(){
-
   // Run WiServer
   WiServer.server_task();
-
- // delay(10);
+  // delay(10);
 }
 

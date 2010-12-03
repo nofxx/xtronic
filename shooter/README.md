@@ -7,7 +7,7 @@ Mini Arduino shield format.
 Connect into pins GND..9.
 
 
-Pinage
+Pinout
 
 1 -> GND
 2 -> LED 1
