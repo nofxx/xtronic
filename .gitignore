@@ -26,3 +26,4 @@ semantic.cache
 *.bak
 *.000
 $savepcb.brd
+*cache.lib
