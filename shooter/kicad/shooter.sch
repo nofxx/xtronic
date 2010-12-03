@@ -1,0 +1,200 @@
+EESchema Schematic File Version 2  date Fri 03 Dec 2010 04:01:49 AM BRST
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+EELAYER 43  0
+EELAYER END
+$Descr A4 11700 8267
+Sheet 1 1
+Title ""
+Date "3 dec 2010"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L CONN_1 P5
+U 1 1 4CF88641
+P 5150 4800
+F 0 "P5" H 5230 4800 40  0000 L CNN
+F 1 "CONN_1" H 5150 4855 30  0001 C CNN
+	1    5150 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R5
+U 1 1 4CF88436
+P 2550 3950
+F 0 "R5" V 2630 3950 50  0000 C CNN
+F 1 "R" V 2550 3950 50  0000 C CNN
+	1    2550 3950
+	1    0    0    -1  
+$EndComp
+Connection ~ 2550 4600
+Wire Wire Line
+	2800 4600 2050 4600
+Wire Wire Line
+	2800 4600 2800 3850
+Connection ~ 3550 4700
+Wire Wire Line
+	2550 4600 2550 4700
+Wire Wire Line
+	2550 4700 3700 4700
+Wire Wire Line
+	3050 2550 3050 3450
+Wire Wire Line
+	3050 3450 2050 3450
+Wire Wire Line
+	2050 4600 2050 3750
+Wire Wire Line
+	5000 4800 4800 4800
+Wire Wire Line
+	4800 4800 4800 2950
+Wire Wire Line
+	4800 2950 5000 2950
+Wire Wire Line
+	2050 3650 2550 3650
+Wire Wire Line
+	2550 3650 2550 3700
+Wire Wire Line
+	2050 3550 3050 3550
+Wire Wire Line
+	3050 3550 3050 4400
+Wire Wire Line
+	3550 2850 3700 2850
+Wire Wire Line
+	3700 2850 3700 4700
+Wire Wire Line
+	2050 3350 2800 3350
+$Comp
+L R R2
+U 1 1 4CF85C33
+P 2800 3600
+F 0 "R2" V 2880 3600 50  0000 C CNN
+F 1 "R" V 2800 3600 50  0000 C CNN
+	1    2800 3600
+	-1   0    0    1   
+$EndComp
+$Comp
+L CONN_1 P2
+U 1 1 4CF85C20
+P 2800 2700
+F 0 "P2" H 2880 2700 40  0000 L CNN
+F 1 "CONN_1" H 2800 2755 30  0001 C CNN
+	1    2800 2700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R1
+U 1 1 4CF85C04
+P 2800 3100
+F 0 "R1" V 2880 3100 50  0000 C CNN
+F 1 "R" H 2800 3100 50  0000 C CNN
+	1    2800 3100
+	1    0    0    -1  
+$EndComp
+NoConn ~ 5000 4000
+NoConn ~ 5000 2150
+$Comp
+L LED D1
+U 1 1 4CF85B78
+P 2550 4400
+F 0 "D1" H 2550 4500 50  0000 C CNN
+F 1 "LED" H 2550 4300 50  0000 C CNN
+	1    2550 4400
+	0    1    1    0   
+$EndComp
+$Comp
+L CONN_6 P1
+U 1 1 4CF85B6C
+P 1700 3500
+F 0 "P1" V 1650 3500 60  0000 C CNN
+F 1 "CONN_6" V 1750 3500 60  0000 C CNN
+	1    1700 3500
+	-1   0    0    1   
+$EndComp
+$Comp
+L CONN_1 P3
+U 1 1 4CF85B42
+P 5150 2350
+F 0 "P3" H 5230 2350 40  0000 L CNN
+F 1 "CONN_1" H 5150 2405 30  0001 C CNN
+	1    5150 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_1 P4
+U 1 1 4CF85B3C
+P 5150 4200
+F 0 "P4" H 5230 4200 40  0000 L CNN
+F 1 "CONN_1" H 5150 4255 30  0001 C CNN
+	1    5150 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R3
+U 1 1 4CF85B11
+P 3300 2550
+F 0 "R3" V 3380 2550 50  0000 C CNN
+F 1 "R" V 3300 2550 50  0000 C CNN
+	1    3300 2550
+	0    1    1    0   
+$EndComp
+$Comp
+L R R4
+U 1 1 4CF85AEF
+P 3300 4400
+F 0 "R4" V 3380 4400 50  0000 C CNN
+F 1 "R" V 3300 4400 50  0000 C CNN
+	1    3300 4400
+	0    1    1    0   
+$EndComp
+$Comp
+L OPTO_DARLINGTON U2
+U 1 1 4CF85AD2
+P 4200 4600
+F 0 "U2" H 4700 5350 60  0000 C CNN
+F 1 "OPTO_DARLINGTON" H 4300 4100 60  0000 C CNN
+	1    4200 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L OPTO_DARLINGTON U1
+U 1 1 4CF85ACF
+P 4200 2750
+F 0 "U1" H 4700 3500 60  0000 C CNN
+F 1 "OPTO_DARLINGTON" H 4300 2250 60  0000 C CNN
+	1    4200 2750
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

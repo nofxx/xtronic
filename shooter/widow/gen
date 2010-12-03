@@ -1,0 +1,6 @@
+#!/usr/bin/env ruby
+
+no_spaces = File.read(File.dirname(__FILE__) + "/index.html").gsub(/\n|\s{2,}/, "")
+
+puts '"' + no_spaces.gsub(/<\/body>|<\/html>/, '') + '"'
+

@@ -1,0 +1,129 @@
+# EESchema Netlist Version 1.1 created  Fri 03 Dec 2010 05:23:14 AM BRST
+(
+ ( /4CF85B78 LED-3MM D1 LED
+  ( 1 N-000001 )
+  ( 2 /GND )
+ )
+ ( /4CF89A68 LED-3MM D2 LED
+  ( 1 N-000016 )
+  ( 2 /GND )
+ )
+ ( /4CF85B6C SIL-6 P1 CONN_6
+  ( 1 /GND )
+  ( 2 N-000014 )
+  ( 3 N-000004 )
+  ( 4 N-000013 )
+  ( 5 N-000008 )
+  ( 6 N-000003 )
+ )
+ ( /4CF85C20 1pin P2 CONN_1
+  ( 1 /PWD )
+ )
+ ( /4CF85B42 1pin P3 CONN_1
+  ( 1 N-000002 )
+ )
+ ( /4CF85B3C 1pin P4 CONN_1
+  ( 1 N-000005 )
+ )
+ ( /4CF88641 1pin P5 CONN_1
+  ( 1 /CGND )
+ )
+ ( /4CF85C04 R3 R1 R
+  ( 1 /PWD )
+  ( 2 N-000008 )
+ )
+ ( /4CF85C33 R3 R2 R
+  ( 1 /GND )
+  ( 2 N-000008 )
+ )
+ ( /4CF85B11 R3 R3 R
+  ( 1 N-000010 )
+  ( 2 N-000013 )
+ )
+ ( /4CF85AEF R3 R4 R
+  ( 1 N-000012 )
+  ( 2 N-000004 )
+ )
+ ( /4CF88436 R3 R5 R
+  ( 1 N-000014 )
+  ( 2 N-000001 )
+ )
+ ( /4CF89A6C R3 R6 R
+  ( 1 N-000016 )
+  ( 2 N-000003 )
+ )
+ ( /4CF85ACF U2 U1 OPTO_DARLINGTON
+  ( 1 N-000010 )
+  ( 2 /GND )
+  ( 3 ? )
+  ( 4 /CGND )
+  ( 5 N-000002 )
+  ( 6 ? )
+ )
+ ( /4CF85AD2 U2 U2 OPTO_DARLINGTON
+  ( 1 N-000012 )
+  ( 2 /GND )
+  ( 3 ? )
+  ( 4 /CGND )
+  ( 5 N-000005 )
+  ( 6 ? )
+ )
+)
+*
+{ Allowed footprints by component:
+$component D1
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D2
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R3
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R4
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R5
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R6
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$endfootprintlist
+}

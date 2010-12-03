@@ -1,0 +1,108 @@
+Cmp-Mod V01 Genere par PcbNew le Fri 03 Dec 2010 05:52:50 AM BRST
+
+BeginCmp
+TimeStamp = /4CF85B78;
+Reference = D1;
+ValeurCmp = LED;
+IdModule  = LED-3MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /4CF89A68;
+Reference = D2;
+ValeurCmp = LED;
+IdModule  = LED-3MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /4CF85B6C;
+Reference = P1;
+ValeurCmp = CONN_6;
+IdModule  = SIL-6-BIG;
+EndCmp
+
+BeginCmp
+TimeStamp = /4CF85C20;
+Reference = P2;
+ValeurCmp = CONN_1;
+IdModule  = 1pin;
+EndCmp
+
+BeginCmp
+TimeStamp = /4CF85B42;
+Reference = P3;
+ValeurCmp = CONN_1;
+IdModule  = 1pin;
+EndCmp
+
+BeginCmp
+TimeStamp = /4CF85B3C;
+Reference = P4;
+ValeurCmp = CONN_1;
+IdModule  = 1pin;
+EndCmp
+
+BeginCmp
+TimeStamp = /4CF88641;
+Reference = P5;
+ValeurCmp = CONN_1;
+IdModule  = 1pin;
+EndCmp
+
+BeginCmp
+TimeStamp = /4CF85C04;
+Reference = R1;
+ValeurCmp = R;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /4CF85C33;
+Reference = R2;
+ValeurCmp = R;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /4CF85B11;
+Reference = R3;
+ValeurCmp = R;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /4CF85AEF;
+Reference = R4;
+ValeurCmp = R;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /4CF88436;
+Reference = R5;
+ValeurCmp = R;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /4CF89A6C;
+Reference = R6;
+ValeurCmp = R;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /4CF85ACF;
+Reference = U1;
+ValeurCmp = OPTO_DARLINGTON;
+IdModule  = U2;
+EndCmp
+
+BeginCmp
+TimeStamp = /4CF85AD2;
+Reference = U2;
+ValeurCmp = OPTO_DARLINGTON;
+IdModule  = U2;
+EndCmp
+
+EndListe
