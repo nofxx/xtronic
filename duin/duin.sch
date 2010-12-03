@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Fri 03 Dec 2010 12:15:25 AM BRST
+EESchema Schematic File Version 2  date Fri 03 Dec 2010 12:47:36 AM BRST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -46,6 +46,15 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 Wire Wire Line
+	4500 1300 4500 1400
+Wire Wire Line
+	3500 1200 3500 1200
+Wire Wire Line
+	6000 6350 6000 6200
+Connection ~ 6650 5500
+Wire Wire Line
+	6650 5850 6650 5500
+Wire Wire Line
 	6800 3950 6000 3950
 Wire Wire Line
 	6800 4150 6000 4150
@@ -80,16 +89,12 @@ Wire Wire Line
 	4700 2350 4550 2350
 Connection ~ 3550 2550
 Connection ~ 3550 3050
-Wire Wire Line
-	3550 2150 3550 3050
 Connection ~ 3250 1600
 Wire Wire Line
-	3500 1600 1400 1600
-Wire Wire Line
-	3500 1200 3100 1200
+	3100 1200 4500 1200
 Connection ~ 1900 1600
 Wire Wire Line
-	1400 1600 1400 1300
+	1400 1300 1400 1600
 Wire Wire Line
 	1800 1200 2300 1200
 Wire Wire Line
@@ -181,22 +186,74 @@ Wire Wire Line
 	6800 4250 6000 4250
 Wire Wire Line
 	6800 4050 6000 4050
+Wire Wire Line
+	6650 6900 6650 6750
+Wire Wire Line
+	6400 5800 5700 5800
+Wire Wire Line
+	4500 1000 4050 1000
+Wire Wire Line
+	4050 1000 4050 2000
+Wire Wire Line
+	4050 2000 3550 2000
+Wire Wire Line
+	3550 2000 3550 3050
+Connection ~ 3550 2150
+Wire Wire Line
+	1400 1600 4250 1600
+Wire Wire Line
+	4250 1600 4250 1400
+Wire Wire Line
+	4250 1400 4500 1400
+Text GLabel 3500 1200 1    60   Input ~ 0
++5V
+Text GLabel 6000 6350 2    60   Input ~ 0
+GND
+$Comp
+L C C7
+U 1 1 4CF85318
+P 6000 6000
+F 0 "C7" H 6050 6100 50  0000 L CNN
+F 1 "C" H 6050 5900 50  0000 L CNN
+	1    6000 6000
+	1    0    0    -1  
+$EndComp
+Text GLabel 6650 6900 2    60   Input ~ 0
+GND
+$Comp
+L LED D2
+U 1 1 4CF852E1
+P 6650 6550
+F 0 "D2" H 6650 6650 50  0000 C CNN
+F 1 "LED" H 6650 6450 50  0000 C CNN
+	1    6650 6550
+	0    1    1    0   
+$EndComp
+$Comp
+L R R2
+U 1 1 4CF852D9
+P 6650 6100
+F 0 "R2" V 6730 6100 50  0000 C CNN
+F 1 "R" V 6650 6100 50  0000 C CNN
+	1    6650 6100
+	1    0    0    -1  
+$EndComp
 Text GLabel 6400 5600 0    60   Input ~ 0
 GND
 $Comp
-L CONN_6 P?
+L CONN_6 P3
 U 1 1 4CF8513C
-P 4850 1300
-F 0 "P?" V 4800 1300 60  0000 C CNN
-F 1 "CONN_6" V 4900 1300 60  0000 C CNN
-	1    4850 1300
+P 4850 1250
+F 0 "P3" V 4800 1250 60  0000 C CNN
+F 1 "CONN_6" V 4900 1250 60  0000 C CNN
+	1    4850 1250
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_6 P?
+L CONN_6 P4
 U 1 1 4CF85130
 P 6750 3300
-F 0 "P?" V 6700 3300 60  0000 C CNN
+F 0 "P4" V 6700 3300 60  0000 C CNN
 F 1 "CONN_6" V 6800 3300 60  0000 C CNN
 	1    6750 3300
 	1    0    0    -1  
@@ -204,66 +261,66 @@ $EndComp
 Text GLabel 4700 2350 2    60   Input ~ 0
 GND
 $Comp
-L DPST SW?
+L DPST SW1
 U 1 1 4CF85056
 P 4050 2350
-F 0 "SW?" H 4050 2450 70  0000 C CNN
+F 0 "SW1" H 4050 2450 70  0000 C CNN
 F 1 "DPST" H 4050 2250 70  0000 C CNN
 	1    4050 2350
 	1    0    0    -1  
 $EndComp
-Text GLabel 3500 1600 2    60   Input ~ 0
+Text GLabel 3500 1600 1    60   Input ~ 0
 GND
 $Comp
-L C C?
+L C C6
 U 1 1 4CF84F42
 P 3250 1400
-F 0 "C?" H 3300 1500 50  0000 L CNN
+F 0 "C6" H 3300 1500 50  0000 L CNN
 F 1 "C" H 3300 1300 50  0000 L CNN
 	1    3250 1400
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C?
+L C C5
 U 1 1 4CF84F0C
 P 2200 1400
-F 0 "C?" H 2250 1500 50  0000 L CNN
+F 0 "C5" H 2250 1500 50  0000 L CNN
 F 1 "C" H 2250 1300 50  0000 L CNN
 	1    2200 1400
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C?
+L C C4
 U 1 1 4CF84F06
 P 1900 1400
-F 0 "C?" H 1950 1500 50  0000 L CNN
+F 0 "C4" H 1950 1500 50  0000 L CNN
 F 1 "C" H 1950 1300 50  0000 L CNN
 	1    1900 1400
 	1    0    0    -1  
 $EndComp
 $Comp
-L DIODE D?
+L DIODE D1
 U 1 1 4CF84ED5
 P 1600 1200
-F 0 "D?" H 1600 1300 40  0000 C CNN
+F 0 "D1" H 1600 1300 40  0000 C CNN
 F 1 "DIODE" H 1600 1100 40  0000 C CNN
 	1    1600 1200
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_3 K?
+L CONN_3 K1
 U 1 1 4CF84EA6
 P 1050 1200
-F 0 "K?" H 1000 1250 50  0000 C CNN
+F 0 "K1" H 1000 1250 50  0000 C CNN
 F 1 "CONN_3" V 1100 1200 40  0000 C CNN
 	1    1050 1200
 	-1   0    0    1   
 $EndComp
 $Comp
-L LM7805 U?
+L LM7805 U1
 U 1 1 4CF84CFD
 P 2700 1250
-F 0 "U?" H 2850 1054 60  0000 C CNN
+F 0 "U1" H 2850 1054 60  0000 C CNN
 F 1 "LM7805" H 2700 1450 60  0000 C CNN
 	1    2700 1250
 	1    0    0    -1  
@@ -276,7 +333,7 @@ Text GLabel 3300 4300 0    60   Input ~ 0
 +5V
 Text GLabel 3300 5150 0    60   Input ~ 0
 GND
-Text GLabel 6400 5800 0    60   Input ~ 0
+Text GLabel 5700 5800 0    60   Input ~ 0
 AREF
 $Comp
 L CONN_8 P2
