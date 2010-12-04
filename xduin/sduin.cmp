@@ -1,0 +1,178 @@
+Cmp-Mod V01 Genere par PcbNew le Sat 04 Dec 2010 01:51:56 AM BRST
+
+BeginCmp
+TimeStamp = /4CF847E8;
+Reference = C1;
+ValeurCmp = C;
+IdModule  = C1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4CF84F06;
+Reference = C2;
+ValeurCmp = C;
+IdModule  = C1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4CF84F0C;
+Reference = C3;
+ValeurCmp = C;
+IdModule  = C1V7;
+EndCmp
+
+BeginCmp
+TimeStamp = /4CF847A3;
+Reference = C4;
+ValeurCmp = C;
+IdModule  = C1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4CF847AD;
+Reference = C5;
+ValeurCmp = C;
+IdModule  = C1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4CF84F42;
+Reference = C6;
+ValeurCmp = C;
+IdModule  = C1V7;
+EndCmp
+
+BeginCmp
+TimeStamp = /4CF85318;
+Reference = C7;
+ValeurCmp = C;
+IdModule  = C1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4CF9B6C2;
+Reference = C8;
+ValeurCmp = C;
+IdModule  = C1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4CF84ED5;
+Reference = D1;
+ValeurCmp = DIODE;
+IdModule  = D3;
+EndCmp
+
+BeginCmp
+TimeStamp = /4CF852E1;
+Reference = D2;
+ValeurCmp = LED;
+IdModule  = LED-3MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /4CF9B7E5;
+Reference = D3;
+ValeurCmp = LED;
+IdModule  = LED-3MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /4CF84EA6;
+Reference = K1;
+ValeurCmp = CONN_3;
+IdModule  = JACK_ALIM;
+EndCmp
+
+BeginCmp
+TimeStamp = /4CF83E9B;
+Reference = P1;
+ValeurCmp = D1;
+IdModule  = SIL-8;
+EndCmp
+
+BeginCmp
+TimeStamp = /4CF84988;
+Reference = P2;
+ValeurCmp = CONN_8;
+IdModule  = SIL-8;
+EndCmp
+
+BeginCmp
+TimeStamp = /4CF8513C;
+Reference = P3;
+ValeurCmp = CONN_6;
+IdModule  = SIL-6;
+EndCmp
+
+BeginCmp
+TimeStamp = /4CF9AD00;
+Reference = P4;
+ValeurCmp = D1;
+IdModule  = SIL-8;
+EndCmp
+
+BeginCmp
+TimeStamp = /4CF9ABF4;
+Reference = P5;
+ValeurCmp = D1;
+IdModule  = SIL-8;
+EndCmp
+
+BeginCmp
+TimeStamp = /4CF8481A;
+Reference = R1;
+ValeurCmp = R;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /4CF852D9;
+Reference = R2;
+ValeurCmp = R;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /4CF9B7E0;
+Reference = R3;
+ValeurCmp = R;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /4CF85056;
+Reference = SW1;
+ValeurCmp = DPST;
+IdModule  = SW_PUSH_SMALL;
+EndCmp
+
+BeginCmp
+TimeStamp = /4CF9A895;
+Reference = U2;
+ValeurCmp = ATMEGA16;
+IdModule  = DIP-40__600_ELL;
+EndCmp
+
+BeginCmp
+TimeStamp = /4CF9B4E8;
+Reference = U3;
+ValeurCmp = LM7805;
+IdModule  = LM78XXV;
+EndCmp
+
+BeginCmp
+TimeStamp = /4CF9B690;
+Reference = U4;
+ValeurCmp = LM7805;
+IdModule  = LM78LXX;
+EndCmp
+
+BeginCmp
+TimeStamp = /4CF844D3;
+Reference = X1;
+ValeurCmp = CRYSTAL;
+IdModule  = C2;
+EndCmp
+
+EndListe

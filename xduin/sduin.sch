@@ -1,0 +1,454 @@
+EESchema Schematic File Version 2  date Sat 04 Dec 2010 03:18:09 AM BRST
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:atmega16
+EELAYER 24  0
+EELAYER END
+$Descr A4 11700 8267
+Sheet 1 1
+Title ""
+Date "4 dec 2010"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Connection ~ 1500 1600
+Connection ~ 1550 1600
+Wire Wire Line
+	1500 1600 1550 1600
+Wire Wire Line
+	7500 3700 7500 3800
+Wire Wire Line
+	7500 3700 6550 3700
+Wire Wire Line
+	9050 1150 8900 1150
+Wire Wire Line
+	4500 1500 4500 1650
+Wire Wire Line
+	1400 1200 1500 1200
+Wire Wire Line
+	8800 4750 8650 4750
+Wire Wire Line
+	7700 4750 7850 4750
+Wire Wire Line
+	6650 3800 6550 3800
+Wire Wire Line
+	1850 1200 2300 1200
+Wire Wire Line
+	3650 3900 3800 3900
+Wire Wire Line
+	3550 2550 3150 2550
+Wire Wire Line
+	3550 2550 3550 2000
+Wire Wire Line
+	6950 3600 6550 3600
+Wire Wire Line
+	1800 1200 1900 1200
+Connection ~ 3250 1200
+Connection ~ 2200 1200
+Wire Wire Line
+	4250 1400 4500 1400
+Wire Wire Line
+	4250 1400 4250 1600
+Wire Wire Line
+	4250 1600 1400 1600
+Connection ~ 3550 2150
+Wire Wire Line
+	3550 2000 4050 2000
+Wire Wire Line
+	4050 2000 4050 1000
+Wire Wire Line
+	4050 1000 4500 1000
+Wire Wire Line
+	3200 5850 3200 5700
+Wire Wire Line
+	4550 2550 4550 2150
+Connection ~ 2700 1600
+Connection ~ 2200 1600
+Wire Wire Line
+	2700 1600 2700 1500
+Connection ~ 2650 4050
+Wire Wire Line
+	2650 4050 2500 4050
+Connection ~ 2000 6200
+Wire Wire Line
+	1700 6350 1700 6200
+Wire Wire Line
+	1700 6200 2000 6200
+Wire Wire Line
+	3050 3750 3300 3750
+Wire Wire Line
+	3300 3750 3300 4000
+Wire Wire Line
+	3300 4000 3800 4000
+Wire Wire Line
+	6950 3300 6550 3300
+Wire Wire Line
+	6950 3100 6550 3100
+Wire Wire Line
+	6950 2900 6550 2900
+Wire Wire Line
+	6550 3000 6950 3000
+Wire Wire Line
+	6550 3200 6950 3200
+Wire Wire Line
+	6550 3400 6950 3400
+Wire Wire Line
+	3050 4350 3300 4350
+Wire Wire Line
+	3300 4350 3300 4100
+Wire Wire Line
+	3300 4100 3800 4100
+Wire Wire Line
+	2000 7050 1700 7050
+Wire Wire Line
+	1700 7050 1700 6750
+Connection ~ 2000 7050
+Wire Wire Line
+	3150 1900 3150 2050
+Connection ~ 1900 1600
+Wire Wire Line
+	3100 1200 4500 1200
+Connection ~ 3250 1600
+Connection ~ 3550 2550
+Wire Wire Line
+	4700 2350 4550 2350
+Connection ~ 4550 2350
+Wire Wire Line
+	7800 4350 7800 4200
+Wire Wire Line
+	3500 1200 3500 1200
+Wire Wire Line
+	4500 1400 4500 1300
+Connection ~ 1900 1200
+Wire Wire Line
+	6550 3500 6950 3500
+Wire Wire Line
+	3800 3700 3150 3700
+Wire Wire Line
+	3150 3700 3150 2550
+Wire Wire Line
+	3800 4900 2650 4900
+Wire Wire Line
+	2650 4900 2650 3750
+Connection ~ 2650 4350
+Wire Wire Line
+	1400 1600 1400 1300
+Connection ~ 1400 1400
+Wire Wire Line
+	8250 5050 8250 5200
+Wire Wire Line
+	8650 5150 8250 5150
+Connection ~ 8250 5150
+Wire Wire Line
+	6650 3900 6550 3900
+Wire Wire Line
+	1450 1100 1450 1200
+Connection ~ 1450 1200
+Wire Wire Line
+	9500 1650 9300 1650
+Wire Wire Line
+	3650 3800 3800 3800
+Wire Wire Line
+	7500 3800 8200 3800
+Wire Wire Line
+	3200 4800 3800 4800
+Text GLabel 3650 3800 0    60   Input ~ 0
++5V
+Text GLabel 9500 1650 2    60   Input ~ 0
+GND
+Text GLabel 9050 1150 2    60   Input ~ 0
++5V
+$Comp
+L LED D3
+U 1 1 4CF9B7E5
+P 9100 1650
+F 0 "D3" H 9100 1750 50  0000 C CNN
+F 1 "LED" H 9100 1550 50  0000 C CNN
+	1    9100 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R3
+U 1 1 4CF9B7E0
+P 8900 1400
+F 0 "R3" V 8980 1400 50  0000 C CNN
+F 1 "R" V 8900 1400 50  0000 C CNN
+	1    8900 1400
+	1    0    0    -1  
+$EndComp
+Text GLabel 6650 3900 2    60   Input ~ 0
+AVCC
+Text GLabel 4500 1650 2    60   Input ~ 0
+VIN
+Text GLabel 1450 1100 1    60   Input ~ 0
+VIN
+Text GLabel 8800 4750 2    60   Input ~ 0
+AVCC
+Text GLabel 7700 4750 0    60   Input ~ 0
++5V
+$Comp
+L C C8
+U 1 1 4CF9B6C2
+P 8650 4950
+F 0 "C8" H 8700 5050 50  0000 L CNN
+F 1 "C" H 8700 4850 50  0000 L CNN
+	1    8650 4950
+	-1   0    0    1   
+$EndComp
+Text GLabel 8250 5200 3    60   Input ~ 0
+GND
+$Comp
+L LM7805 U4
+U 1 1 4CF9B690
+P 8250 4800
+F 0 "U4" H 8400 4604 60  0000 C CNN
+F 1 "LM7805" H 8250 5000 60  0000 C CNN
+	1    8250 4800
+	1    0    0    -1  
+$EndComp
+Text GLabel 6650 3800 2    60   Input ~ 0
+GND
+$Comp
+L LM7805 U3
+U 1 1 4CF9B4E8
+P 2700 1250
+F 0 "U3" H 2850 1054 60  0000 C CNN
+F 1 "LM7805" H 2700 1450 60  0000 C CNN
+	1    2700 1250
+	1    0    0    -1  
+$EndComp
+Text GLabel 3650 3900 0    60   Input ~ 0
+GND
+$Comp
+L CONN_8 P4
+U 1 1 4CF9AD00
+P 6900 4450
+F 0 "P4" V 6900 4650 60  0000 C CNN
+F 1 "D1" V 6900 4350 60  0000 C CNN
+	1    6900 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_8 P5
+U 1 1 4CF9ABF4
+P 7300 3250
+F 0 "P5" V 7300 3450 60  0000 C CNN
+F 1 "ADC" V 7550 3050 60  0000 C CIB
+	1    7300 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L ATMEGA16 U2
+U 1 1 4CF9A895
+P 5250 4050
+F 0 "U2" H 6100 5400 60  0000 C CNN
+F 1 "ATMEGA16" H 5200 4250 60  0000 C CNN
+	1    5250 4050
+	1    0    0    -1  
+$EndComp
+Text GLabel 3500 1200 1    60   Input ~ 0
++5V
+Text GLabel 7800 4350 2    60   Input ~ 0
+GND
+$Comp
+L C C7
+U 1 1 4CF85318
+P 7800 4000
+F 0 "C7" H 7850 4100 50  0000 L CNN
+F 1 "C" H 7850 3900 50  0000 L CNN
+	1    7800 4000
+	1    0    0    -1  
+$EndComp
+Text GLabel 3200 5850 2    60   Input ~ 0
+GND
+$Comp
+L LED D2
+U 1 1 4CF852E1
+P 3200 5500
+F 0 "D2" H 3200 5600 50  0000 C CNN
+F 1 "LED" H 3200 5400 50  0000 C CNN
+	1    3200 5500
+	0    1    1    0   
+$EndComp
+$Comp
+L R R2
+U 1 1 4CF852D9
+P 3200 5050
+F 0 "R2" V 3280 5050 50  0000 C CNN
+F 1 "R" V 3200 5050 50  0000 C CNN
+	1    3200 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_6 P3
+U 1 1 4CF8513C
+P 4850 1250
+F 0 "P3" V 4800 1250 60  0000 C CNN
+F 1 "CONN_6" V 4900 1250 60  0000 C CNN
+	1    4850 1250
+	1    0    0    -1  
+$EndComp
+Text GLabel 4700 2350 2    60   Input ~ 0
+GND
+$Comp
+L DPST SW1
+U 1 1 4CF85056
+P 4050 2350
+F 0 "SW1" H 4050 2450 70  0000 C CNN
+F 1 "DPST" H 4050 2250 70  0000 C CNN
+	1    4050 2350
+	1    0    0    -1  
+$EndComp
+Text GLabel 3500 1600 1    60   Input ~ 0
+GND
+$Comp
+L C C6
+U 1 1 4CF84F42
+P 3250 1400
+F 0 "C6" H 3300 1500 50  0000 L CNN
+F 1 "C" H 3300 1300 50  0000 L CNN
+	1    3250 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C3
+U 1 1 4CF84F0C
+P 2200 1400
+F 0 "C3" H 2250 1500 50  0000 L CNN
+F 1 "C" H 2250 1300 50  0000 L CNN
+	1    2200 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C2
+U 1 1 4CF84F06
+P 1500 1400
+F 0 "C2" H 1550 1500 50  0000 L CNN
+F 1 "C" H 1550 1300 50  0000 L CNN
+	1    1500 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L DIODE D1
+U 1 1 4CF84ED5
+P 1700 1200
+F 0 "D1" H 1700 1300 40  0000 C CNN
+F 1 "DIODE" H 1700 1100 40  0000 C CNN
+	1    1700 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_3 K1
+U 1 1 4CF84EA6
+P 1050 1300
+F 0 "K1" H 1050 1400 50  0000 C CNN
+F 1 "CONN_3" V 1100 1300 40  0000 C CNN
+	1    1050 1300
+	-1   0    0    -1  
+$EndComp
+Text GLabel 3150 1900 1    60   Input ~ 0
++5V
+Text GLabel 2500 4050 0    60   Input ~ 0
+GND
+Text GLabel 1700 6200 0    60   Input ~ 0
++5V
+Text GLabel 1700 7050 0    60   Input ~ 0
+GND
+Text GLabel 8200 3800 2    60   Input ~ 0
+AREF
+$Comp
+L CONN_8 P2
+U 1 1 4CF84988
+P 3450 4650
+F 0 "P2" V 3450 4800 60  0000 C CNN
+F 1 "CONN_8" V 3500 4550 60  0000 C CNN
+	1    3450 4650
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R1
+U 1 1 4CF8481A
+P 3150 2300
+F 0 "R1" V 3230 2300 50  0000 C CNN
+F 1 "R" V 3150 2300 50  0000 C CNN
+	1    3150 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C1
+U 1 1 4CF847E8
+P 1700 6550
+F 0 "C1" H 1750 6650 50  0000 L CNN
+F 1 "C" H 1750 6450 50  0000 L CNN
+	1    1700 6550
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C5
+U 1 1 4CF847AD
+P 2850 4350
+F 0 "C5" H 2900 4450 50  0000 L CNN
+F 1 "C" H 2900 4250 50  0000 L CNN
+	1    2850 4350
+	0    1    1    0   
+$EndComp
+$Comp
+L C C4
+U 1 1 4CF847A3
+P 2850 3750
+F 0 "C4" H 2900 3850 50  0000 L CNN
+F 1 "C" H 2900 3650 50  0000 L CNN
+	1    2850 3750
+	0    1    1    0   
+$EndComp
+$Comp
+L CRYSTAL X1
+U 1 1 4CF844D3
+P 3050 4050
+F 0 "X1" H 3050 4200 60  0000 C CNN
+F 1 "CRYSTAL" H 3050 3900 60  0000 C CNN
+	1    3050 4050
+	0    1    1    0   
+$EndComp
+$Comp
+L CONN_8 P1
+U 1 1 4CF83E9B
+P 3450 3250
+F 0 "P1" V 3450 3450 60  0000 C CNN
+F 1 "D1" H 3450 3150 60  0000 C CNN
+	1    3450 3250
+	-1   0    0    1   
+$EndComp
+$EndSCHEMATC
