@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sat 04 Dec 2010 09:45:50 AM BRST
+EESchema Schematic File Version 2  date Sat 04 Dec 2010 11:37:20 AM BRST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -43,6 +43,33 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+$Comp
+L CONN_8 P10
+U 1 1 4CFA341B
+P 6900 4450
+F 0 "P10" V 6900 4650 60  0000 C CNN
+F 1 "D1" H 6900 4350 60  0000 C CNN
+	1    6900 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_8 P9
+U 1 1 4CFA3417
+P 3450 3250
+F 0 "P9" V 3450 3450 60  0000 C CNN
+F 1 "D1" H 3450 3150 60  0000 C CNN
+	1    3450 3250
+	-1   0    0    1   
+$EndComp
+$Comp
+L CONN_8 P8
+U 1 1 4CFA3388
+P 3450 3250
+F 0 "P8" V 3450 3450 60  0000 C CNN
+F 1 "D1" H 3450 3150 60  0000 C CNN
+	1    3450 3250
+	-1   0    0    1   
+$EndComp
 Wire Wire Line
 	1650 1600 5700 1600
 Wire Wire Line

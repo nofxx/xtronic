@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sat 04 Dec 2010 12:32:55 AM BRST
+EESchema Schematic File Version 2  date Sat 04 Dec 2010 11:45:20 AM BRST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -37,7 +37,7 @@ EELAYER END
 $Descr A4 11700 8267
 Sheet 1 1
 Title ""
-Date "3 dec 2010"
+Date "4 dec 2010"
 Rev ""
 Comp ""
 Comment1 ""
@@ -46,24 +46,34 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 Wire Wire Line
-	1800 1200 2300 1200
-Connection ~ 3250 1200
-Connection ~ 2200 1200
+	4600 1150 3350 1150
+Connection ~ 1300 950 
 Wire Wire Line
-	4250 1400 4500 1400
+	1300 950  650  950 
 Wire Wire Line
-	4250 1400 4250 1600
+	8900 3000 8900 3200
 Wire Wire Line
-	4250 1600 1400 1600
+	8500 3100 9300 3100
+Connection ~ 1300 1050
+Wire Wire Line
+	2500 550  1300 550 
+Wire Wire Line
+	1300 550  1300 1150
+Wire Wire Line
+	3350 1150 3350 1400
+Connection ~ 5550 1150
+Connection ~ 4500 1150
+Wire Wire Line
+	6550 1350 6800 1350
+Wire Wire Line
+	6550 1350 6550 1550
 Connection ~ 3550 2150
 Wire Wire Line
 	3550 3050 3550 2000
 Wire Wire Line
 	3550 2000 4050 2000
 Wire Wire Line
-	4050 2000 4050 1000
-Wire Wire Line
-	4050 1000 4500 1000
+	6350 950  6800 950 
 Wire Wire Line
 	5700 5800 6400 5800
 Wire Wire Line
@@ -97,17 +107,11 @@ Wire Wire Line
 Wire Wire Line
 	6400 5600 6800 5600
 Wire Wire Line
-	4550 2550 4550 2150
-Connection ~ 2700 1600
-Connection ~ 2200 1600
+	4550 2150 4550 2550
+Connection ~ 5000 1550
+Connection ~ 4500 1550
 Wire Wire Line
-	2700 1600 2700 1500
-Wire Wire Line
-	1300 1300 1400 1300
-Wire Wire Line
-	1300 1300 1300 1100
-Wire Wire Line
-	1300 1100 1400 1100
+	5000 1550 5000 1450
 Connection ~ 2550 3750
 Wire Wire Line
 	2400 3750 2550 3750
@@ -117,9 +121,9 @@ Wire Wire Line
 Wire Wire Line
 	3300 4300 3600 4300
 Wire Wire Line
-	3600 5250 3600 5050
+	3600 5050 3600 5250
 Wire Wire Line
-	2550 3450 2550 4050
+	2550 4050 2550 3450
 Wire Wire Line
 	2950 3450 3250 3450
 Wire Wire Line
@@ -145,7 +149,7 @@ Wire Wire Line
 Wire Wire Line
 	3250 3850 3600 3850
 Wire Wire Line
-	3600 4150 3600 4450
+	3600 4450 3600 4150
 Wire Wire Line
 	3600 5150 3300 5150
 Wire Wire Line
@@ -154,15 +158,13 @@ Connection ~ 3600 5150
 Wire Wire Line
 	2850 4550 3600 4550
 Wire Wire Line
-	3600 3050 3200 3050
+	3200 3050 3600 3050
 Wire Wire Line
 	3200 2400 3200 2550
+Connection ~ 4200 1550
 Wire Wire Line
-	1400 1300 1400 1600
-Connection ~ 1900 1600
-Wire Wire Line
-	3100 1200 4500 1200
-Connection ~ 3250 1600
+	6800 1150 5400 1150
+Connection ~ 5550 1550
 Connection ~ 3550 3050
 Connection ~ 3550 2550
 Wire Wire Line
@@ -204,13 +206,66 @@ Connection ~ 6650 5500
 Wire Wire Line
 	6000 6350 6000 6200
 Wire Wire Line
-	3500 1200 3500 1200
+	5800 1150 5800 1150
 Wire Wire Line
-	4500 1400 4500 1300
+	6800 1350 6800 1250
+Connection ~ 4200 1150
 Wire Wire Line
-	1900 1200 1850 1200
-Connection ~ 1900 1200
-Text GLabel 3500 1200 1    60   Input ~ 0
+	1650 1400 1650 1550
+Connection ~ 1650 1550
+Wire Wire Line
+	1650 1550 6550 1550
+Wire Wire Line
+	1300 1250 1300 2250
+Wire Wire Line
+	1300 2250 2500 2250
+Connection ~ 8900 3100
+Wire Wire Line
+	650  1350 1300 1350
+Connection ~ 1300 1350
+Text GLabel 8900 3200 3    60   Input ~ 0
+GND
+Text GLabel 4050 2000 2    60   Input ~ 0
+RESET
+Text GLabel 6350 950  0    60   Input ~ 0
+RESET
+$Comp
+L C C9
+U 1 1 4CFA4448
+P 9300 2900
+F 0 "C9" H 9350 3000 50  0000 L CNN
+F 1 "C" H 9350 2800 50  0000 L CNN
+	1    9300 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C8
+U 1 1 4CFA4444
+P 8500 2900
+F 0 "C8" H 8550 3000 50  0000 L CNN
+F 1 "C" H 8550 2800 50  0000 L CNN
+	1    8500 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L LM7805 U2
+U 1 1 4CFA4437
+P 8900 2750
+F 0 "U2" H 9050 2554 60  0000 C CNN
+F 1 "LD2903" H 8900 2950 60  0000 C CNN
+	1    8900 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L BRIDGE D3
+U 1 1 4CFA4424
+P 2500 1400
+F 0 "D3" H 2500 1450 70  0000 C CNN
+F 1 "BRIDGE" H 2500 1350 70  0000 C CNN
+	1    2500 1400
+	1    0    0    -1  
+$EndComp
+Text GLabel 5800 1150 1    60   Input ~ 0
 +5V
 Text GLabel 6000 6350 2    60   Input ~ 0
 GND
@@ -248,10 +303,10 @@ GND
 $Comp
 L CONN_6 P3
 U 1 1 4CF8513C
-P 4850 1250
-F 0 "P3" V 4800 1250 60  0000 C CNN
-F 1 "CONN_6" V 4900 1250 60  0000 C CNN
-	1    4850 1250
+P 7150 1200
+F 0 "P3" V 7100 1200 60  0000 C CNN
+F 1 "CONN_6" V 7200 1200 60  0000 C CNN
+	1    7150 1200
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -274,60 +329,51 @@ F 1 "DPST" H 4050 2250 70  0000 C CNN
 	1    4050 2350
 	1    0    0    -1  
 $EndComp
-Text GLabel 3500 1600 1    60   Input ~ 0
+Text GLabel 5800 1550 1    60   Input ~ 0
 GND
 $Comp
 L C C6
 U 1 1 4CF84F42
-P 3250 1400
-F 0 "C6" H 3300 1500 50  0000 L CNN
-F 1 "C" H 3300 1300 50  0000 L CNN
-	1    3250 1400
+P 5550 1350
+F 0 "C6" H 5600 1450 50  0000 L CNN
+F 1 "C" H 5600 1250 50  0000 L CNN
+	1    5550 1350
 	1    0    0    -1  
 $EndComp
 $Comp
 L C C5
 U 1 1 4CF84F0C
-P 2200 1400
-F 0 "C5" H 2250 1500 50  0000 L CNN
-F 1 "C" H 2250 1300 50  0000 L CNN
-	1    2200 1400
+P 4500 1350
+F 0 "C5" H 4550 1450 50  0000 L CNN
+F 1 "C" H 4550 1250 50  0000 L CNN
+	1    4500 1350
 	1    0    0    -1  
 $EndComp
 $Comp
 L C C4
 U 1 1 4CF84F06
-P 1900 1400
-F 0 "C4" H 1950 1500 50  0000 L CNN
-F 1 "C" H 1950 1300 50  0000 L CNN
-	1    1900 1400
-	1    0    0    -1  
-$EndComp
-$Comp
-L DIODE D1
-U 1 1 4CF84ED5
-P 1600 1200
-F 0 "D1" H 1600 1300 40  0000 C CNN
-F 1 "DIODE" H 1600 1100 40  0000 C CNN
-	1    1600 1200
+P 650 1150
+F 0 "C4" H 700 1250 50  0000 L CNN
+F 1 "C" H 700 1050 50  0000 L CNN
+	1    650  1150
 	1    0    0    -1  
 $EndComp
 $Comp
 L CONN_3 K1
 U 1 1 4CF84EA6
-P 1050 1200
-F 0 "K1" H 1000 1250 50  0000 C CNN
-F 1 "CONN_3" V 1100 1200 40  0000 C CNN
-	1    1050 1200
+P 950 1150
+F 0 "K1" H 900 1200 50  0000 C CNN
+F 1 "CONN_3" V 1000 1150 40  0000 C CNN
+	1    950  1150
 	-1   0    0    1   
 $EndComp
 $Comp
 L LM7805 U1
 U 1 1 4CF84CFD
-P 2700 1250
-F 0 "U1" H 2850 1054 60  0000 C CNN
-F 1 "LM7805" H 2700 1450 60  0000 C CNN
-	1    2700 1250
+P 5000 1200
+F 0 "U1" H 5150 1004 60  0000 C CNN
+F 1 "LM7805" H 5000 1400 60  0000 C CNN
+	1    5000 1200
 	1    0    0    -1  
 $EndComp
 Text GLabel 3200 2400 1    60   Input ~ 0

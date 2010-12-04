@@ -1,4 +1,4 @@
-Cmp-Mod V01 Genere par PcbNew le Sat 04 Dec 2010 01:45:14 AM BRST
+Cmp-Mod V01 Genere par PcbNew le Sat 04 Dec 2010 11:43:32 AM BRST
 
 BeginCmp
 TimeStamp = /4CF847A3;
@@ -50,10 +50,17 @@ IdModule  = C1;
 EndCmp
 
 BeginCmp
-TimeStamp = /4CF84ED5;
-Reference = D1;
-ValeurCmp = DIODE;
-IdModule  = D3;
+TimeStamp = /4CFA4444;
+Reference = C8;
+ValeurCmp = C;
+IdModule  = C1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4CFA4448;
+Reference = C9;
+ValeurCmp = C;
+IdModule  = C1;
 EndCmp
 
 BeginCmp
@@ -61,6 +68,13 @@ TimeStamp = /4CF852E1;
 Reference = D2;
 ValeurCmp = LED;
 IdModule  = LED-3MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /4CFA4424;
+Reference = D3;
+ValeurCmp = BRIDGE;
+IdModule  = PIN_ARRAY_2X2;
 EndCmp
 
 BeginCmp
@@ -131,6 +145,13 @@ TimeStamp = /4CF84CFD;
 Reference = U1;
 ValeurCmp = LM7805;
 IdModule  = LM78XXV;
+EndCmp
+
+BeginCmp
+TimeStamp = /4CFA4437;
+Reference = U2;
+ValeurCmp = LM7805;
+IdModule  = TO92-REG;
 EndCmp
 
 BeginCmp

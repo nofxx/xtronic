@@ -1,4 +1,4 @@
-update=Sat 04 Dec 2010 01:47:24 AM BRST
+update=Sat 04 Dec 2010 06:32:02 PM BRST
 last_client=pcbnew
 [general]
 version=1
@@ -100,3 +100,9 @@ LibName7=display
 LibName8=valves
 LibName9=led
 LibName10=dip_sockets
+LibName11=iut
+LibName12=muonde
+LibName13=w_indicators
+LibName14=w_misc_comp
+LibName15=w_pth_diodes
+LibName16=w_to
