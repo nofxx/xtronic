@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sat 04 Dec 2010 03:18:09 AM BRST
+EESchema Schematic File Version 2  date Sat 04 Dec 2010 04:23:03 AM BRST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -30,6 +30,7 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:atmega16
+LIBS:sduin-cache
 EELAYER 24  0
 EELAYER END
 $Descr A4 11700 8267
