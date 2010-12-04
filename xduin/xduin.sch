@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sat 04 Dec 2010 09:19:13 AM BRST
+EESchema Schematic File Version 2  date Sat 04 Dec 2010 09:45:50 AM BRST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -234,15 +234,6 @@ P 5450 1200
 F 0 "SW2" H 5450 1300 70  0000 C CNN
 F 1 "SPST" H 5450 1100 70  0000 C CNN
 	1    5450 1200
-	1    0    0    -1  
-$EndComp
-$Comp
-L MAX232 U5
-U 1 1 4CF9EDE4
-P 1800 6550
-F 0 "U5" H 1800 7400 70  0000 C CNN
-F 1 "MAX232" H 1800 5700 70  0000 C CNN
-	1    1800 6550
 	1    0    0    -1  
 $EndComp
 Text GLabel 3650 3800 0    60   Input ~ 0
