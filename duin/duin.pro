@@ -1,4 +1,4 @@
-update=Sat 04 Dec 2010 06:32:02 PM BRST
+update=Sun 05 Dec 2010 12:29:21 AM BRST
 last_client=pcbnew
 [general]
 version=1

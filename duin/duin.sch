@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sat 04 Dec 2010 11:45:20 AM BRST
+EESchema Schematic File Version 2  date Sun 05 Dec 2010 12:27:05 AM BRST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -37,7 +37,7 @@ EELAYER END
 $Descr A4 11700 8267
 Sheet 1 1
 Title ""
-Date "4 dec 2010"
+Date "5 dec 2010"
 Rev ""
 Comp ""
 Comment1 ""
@@ -45,15 +45,23 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Text GLabel 6650 1050 0    60   Input ~ 0
++3.3V
+Wire Wire Line
+	6650 1050 6800 1050
+Connection ~ 6000 6200
+Connection ~ 6000 5800
+Wire Wire Line
+	9500 1000 9350 1000
 Wire Wire Line
 	4600 1150 3350 1150
 Connection ~ 1300 950 
 Wire Wire Line
 	1300 950  650  950 
 Wire Wire Line
-	8900 3000 8900 3200
+	8950 1500 8950 1300
 Wire Wire Line
-	8500 3100 9300 3100
+	9350 1400 8550 1400
 Connection ~ 1300 1050
 Wire Wire Line
 	2500 550  1300 550 
@@ -107,7 +115,7 @@ Wire Wire Line
 Wire Wire Line
 	6400 5600 6800 5600
 Wire Wire Line
-	4550 2150 4550 2550
+	4550 2550 4550 2150
 Connection ~ 5000 1550
 Connection ~ 4500 1550
 Wire Wire Line
@@ -115,15 +123,15 @@ Wire Wire Line
 Connection ~ 2550 3750
 Wire Wire Line
 	2400 3750 2550 3750
-Connection ~ 3600 4300
+Connection ~ 3600 4150
 Wire Wire Line
-	3300 4450 3300 4300
+	3300 4450 3300 4150
 Wire Wire Line
-	3300 4300 3600 4300
+	3300 4150 3600 4150
 Wire Wire Line
-	3600 5050 3600 5250
+	3600 5250 3600 5050
 Wire Wire Line
-	2550 4050 2550 3450
+	2550 3450 2550 4050
 Wire Wire Line
 	2950 3450 3250 3450
 Wire Wire Line
@@ -149,8 +157,6 @@ Wire Wire Line
 Wire Wire Line
 	3250 3850 3600 3850
 Wire Wire Line
-	3600 4450 3600 4150
-Wire Wire Line
 	3600 5150 3300 5150
 Wire Wire Line
 	3300 5150 3300 4850
@@ -158,12 +164,12 @@ Connection ~ 3600 5150
 Wire Wire Line
 	2850 4550 3600 4550
 Wire Wire Line
-	3200 3050 3600 3050
+	3600 3050 3200 3050
 Wire Wire Line
 	3200 2400 3200 2550
 Connection ~ 4200 1550
 Wire Wire Line
-	6800 1150 5400 1150
+	5400 1150 6800 1150
 Connection ~ 5550 1550
 Connection ~ 3550 3050
 Connection ~ 3550 2550
@@ -219,11 +225,32 @@ Wire Wire Line
 	1300 1250 1300 2250
 Wire Wire Line
 	1300 2250 2500 2250
-Connection ~ 8900 3100
+Connection ~ 8950 1400
 Wire Wire Line
 	650  1350 1300 1350
 Connection ~ 1300 1350
-Text GLabel 8900 3200 3    60   Input ~ 0
+Wire Wire Line
+	8350 1000 8550 1000
+Wire Wire Line
+	3500 4350 3500 4450
+Wire Wire Line
+	3500 4450 3600 4450
+Text GLabel 3500 4350 1    60   Input ~ 0
++3.3V
+$Comp
+L CONN_3X2 P5
+U 1 1 4CFAF0AE
+P 8550 2800
+F 0 "P5" H 8550 3050 50  0000 C CNN
+F 1 "CONN_3X2" V 8550 2850 40  0000 C CNN
+	1    8550 2800
+	1    0    0    -1  
+$EndComp
+Text GLabel 9500 1000 2    60   Input ~ 0
++3.3V
+Text GLabel 8350 1000 0    60   Input ~ 0
++5V
+Text GLabel 8950 1500 3    60   Input ~ 0
 GND
 Text GLabel 4050 2000 2    60   Input ~ 0
 RESET
@@ -232,28 +259,28 @@ RESET
 $Comp
 L C C9
 U 1 1 4CFA4448
-P 9300 2900
-F 0 "C9" H 9350 3000 50  0000 L CNN
-F 1 "C" H 9350 2800 50  0000 L CNN
-	1    9300 2900
+P 9350 1200
+F 0 "C9" H 9400 1300 50  0000 L CNN
+F 1 "C" H 9400 1100 50  0000 L CNN
+	1    9350 1200
 	1    0    0    -1  
 $EndComp
 $Comp
 L C C8
 U 1 1 4CFA4444
-P 8500 2900
-F 0 "C8" H 8550 3000 50  0000 L CNN
-F 1 "C" H 8550 2800 50  0000 L CNN
-	1    8500 2900
+P 8550 1200
+F 0 "C8" H 8600 1300 50  0000 L CNN
+F 1 "C" H 8600 1100 50  0000 L CNN
+	1    8550 1200
 	1    0    0    -1  
 $EndComp
 $Comp
 L LM7805 U2
 U 1 1 4CFA4437
-P 8900 2750
-F 0 "U2" H 9050 2554 60  0000 C CNN
-F 1 "LD2903" H 8900 2950 60  0000 C CNN
-	1    8900 2750
+P 8950 1050
+F 0 "U2" H 9100 854 60  0000 C CNN
+F 1 "LD2903" H 8950 1250 60  0000 C CNN
+	1    8950 1050
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -268,7 +295,7 @@ $EndComp
 Text GLabel 5800 1150 1    60   Input ~ 0
 +5V
 Text GLabel 6000 6350 2    60   Input ~ 0
-GND
++3.3V
 $Comp
 L C C7
 U 1 1 4CF85318
@@ -332,7 +359,7 @@ $EndComp
 Text GLabel 5800 1550 1    60   Input ~ 0
 GND
 $Comp
-L C C6
+L CP1 C6
 U 1 1 4CF84F42
 P 5550 1350
 F 0 "C6" H 5600 1450 50  0000 L CNN
@@ -341,7 +368,7 @@ F 1 "C" H 5600 1250 50  0000 L CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C5
+L CP1 C5
 U 1 1 4CF84F0C
 P 4500 1350
 F 0 "C5" H 4550 1450 50  0000 L CNN

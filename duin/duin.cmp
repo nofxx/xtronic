@@ -1,4 +1,4 @@
-Cmp-Mod V01 Genere par PcbNew le Sat 04 Dec 2010 11:43:32 AM BRST
+Cmp-Mod V01 Genere par PcbNew le Sun 05 Dec 2010 12:11:38 AM BRST
 
 BeginCmp
 TimeStamp = /4CF847A3;
@@ -60,7 +60,7 @@ BeginCmp
 TimeStamp = /4CFA4448;
 Reference = C9;
 ValeurCmp = C;
-IdModule  = C1;
+IdModule  = C2;
 EndCmp
 
 BeginCmp
@@ -120,6 +120,13 @@ IdModule  = SIL-6;
 EndCmp
 
 BeginCmp
+TimeStamp = /4CFAF0AE;
+Reference = P5;
+ValeurCmp = CONN_3X2;
+IdModule  = pin_array_3x2;
+EndCmp
+
+BeginCmp
 TimeStamp = /4CF8481A;
 Reference = R1;
 ValeurCmp = R;
@@ -150,7 +157,7 @@ EndCmp
 BeginCmp
 TimeStamp = /4CFA4437;
 Reference = U2;
-ValeurCmp = LM7805;
+ValeurCmp = LD2903;
 IdModule  = TO92-REG;
 EndCmp
 

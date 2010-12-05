@@ -1,0 +1,79 @@
+eeschema (2010-04-21 BZR 23xx)-stable  >> Creation date: Sun 05 Dec 2010 03:46:00 AM BRST
+
+#Cmp ( order = Reference )
+| C1         100nF       
+| C2         100nF       
+| C3         100uF       
+| C4         22pF        
+| C5         22pF        
+| C6         100uF       
+| C7         100n        
+| C8         100nF       
+| D2         LED         
+| D3         LED         
+| D4         BRIDGE      
+| K1         CONN_3      
+| P2         CONN_8      
+| P3         CONN_6      
+| P5         ADC         
+| P6         CONN_1      
+| P12        CONN_1      
+| P13        CONN_1      
+| P14        CONN_1      
+| P15        ADC         
+| P16        CONN_1      
+| P17        D1b         
+| P18        D1a         
+| P19        D3b         
+| P20        D3a         
+| P?         CONN_3X2    
+| R1         10k         
+| R2         1k          
+| R3         100k        
+| SW1        DPST        
+| SW2        SPST        
+| U2         ATMEGA16    
+| U3         LM7805      
+| U4         LP2950      
+| X1         16Mhz       
+#End Cmp
+
+#Cmp ( order = Value )
+| 100k         R3        
+| 100n         C7        
+| 100nF        C1        
+| 100nF        C2        
+| 100nF        C8        
+| 100uF        C3        
+| 100uF        C6        
+| 10k          R1        
+| 16Mhz        X1        
+| 1k           R2        
+| 22pF         C4        
+| 22pF         C5        
+| ADC          P5        
+| ADC          P15       
+| ATMEGA16     U2        
+| BRIDGE       D4        
+| CONN_1       P6        
+| CONN_1       P12       
+| CONN_1       P13       
+| CONN_1       P14       
+| CONN_1       P16       
+| CONN_3       K1        
+| CONN_3X2     P?        
+| CONN_6       P3        
+| CONN_8       P2        
+| D1a          P18       
+| D1b          P17       
+| D3a          P20       
+| D3b          P19       
+| DPST         SW1       
+| LED          D2        
+| LED          D3        
+| LM7805       U3        
+| LP2950       U4        
+| SPST         SW2       
+#End Cmp
+
+#End List
