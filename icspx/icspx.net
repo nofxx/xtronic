@@ -1,0 +1,213 @@
+# EESchema Netlist Version 1.1 created  Mon 06 Dec 2010 11:50:59 AM BRST
+(
+ ( /4CFCA971 C1 C1 22pF
+  ( 1 N-000067 )
+  ( 2 GND )
+ )
+ ( /4CFCA974 C1 C2 22pF
+  ( 1 N-000026 )
+  ( 2 GND )
+ )
+ ( /4CFCDE93 MICROSWITCH_SPST D1 BI_LED
+  ( 1 N-000044 )
+  ( 2 N-000043 )
+  ( 3 N-000055 )
+ )
+ ( /4CFC9E36 LED-3MM D3 LED
+  ( 1 N-000003 )
+  ( 2 GND )
+ )
+ ( /4CFC9E38 LED-3MM D4 LED
+  ( 1 N-000002 )
+  ( 2 GND )
+ )
+ ( /4CFC9A1A DIP-28__300_ELL IC1 ATMEGA8-P
+  ( 1 N-000056 )
+  ( 2 ? )
+  ( 3 ? )
+  ( 4 ? )
+  ( 5 ? )
+  ( 6 ? )
+  ( 7 VCC )
+  ( 8 GND )
+  ( 9 N-000067 )
+  ( 10 N-000026 )
+  ( 11 ? )
+  ( 12 ? )
+  ( 13 ? )
+  ( 14 ? )
+  ( 15 ? )
+  ( 16 ? )
+  ( 17 N-000062 )
+  ( 18 N-000052 )
+  ( 19 N-000063 )
+  ( 20 VCC )
+  ( 21 ? )
+  ( 22 GND )
+  ( 23 ? )
+  ( 24 ? )
+  ( 25 ? )
+  ( 26 ? )
+  ( 27 ? )
+  ( 28 ? )
+ )
+ ( /4CFCE82C MICROSWITCH_SPST K1 CONN_3
+  ( 1 N-000072 )
+  ( 2 VCC )
+  ( 3 N-000054 )
+ )
+ ( /4CFC9C95 SIL-6 P1 CONN_6
+  ( 1 ? )
+  ( 2 GND )
+  ( 3 GND )
+  ( 4 N-000054 )
+  ( 5 ? )
+  ( 6 ? )
+ )
+ ( /4CFC9A97 SIL-8 P2 D0
+  ( 1 ? )
+  ( 2 ? )
+  ( 3 N-000063 )
+  ( 4 N-000052 )
+  ( 5 N-000062 )
+  ( 6 N-000056 )
+  ( 7 N-000004 )
+  ( 8 N-000042 )
+ )
+ ( /4CFC9DDC SIL-3 P3 CONN_4
+  ( 1 N-000044 )
+  ( 2 N-000055 )
+  ( 3 ? )
+  ( 4 ? )
+ )
+ ( /4CFCE83B SIL-2 P4 CONN_2
+  ( 1 GND )
+  ( 2 N-000072 )
+ )
+ ( /4CFC9E05 R3 R1 220R
+  ( 1 N-000043 )
+  ( 2 GND )
+ )
+ ( /4CFC9E0F R3 R2 1k
+  ( 1 N-000042 )
+  ( 2 N-000003 )
+ )
+ ( /4CFC9E15 R3 R3 1k
+  ( 1 N-000004 )
+  ( 2 N-000002 )
+ )
+ ( /4CFCAB68 R3 R4 10k
+  ( 1 VCC )
+  ( 2 N-000056 )
+ )
+ ( /4CFCAD6F DIP-40__600_ELL U1 ATMEGA16
+  ( 1 ? )
+  ( 2 ? )
+  ( 3 ? )
+  ( 4 ? )
+  ( 5 ? )
+  ( 6 N-000062 )
+  ( 7 N-000052 )
+  ( 8 N-000063 )
+  ( 9 N-000056 )
+  ( 10 VCC )
+  ( 11 GND )
+  ( 12 N-000067 )
+  ( 13 N-000026 )
+  ( 14 ? )
+  ( 15 ? )
+  ( 16 ? )
+  ( 17 ? )
+  ( 18 ? )
+  ( 19 ? )
+  ( 20 ? )
+  ( 21 ? )
+  ( 22 ? )
+  ( 23 ? )
+  ( 24 ? )
+  ( 25 ? )
+  ( 26 ? )
+  ( 27 ? )
+  ( 28 ? )
+  ( 29 ? )
+  ( 30 VCC )
+  ( 31 GND )
+  ( 32 ? )
+  ( 33 ? )
+  ( 34 ? )
+  ( 35 ? )
+  ( 36 ? )
+  ( 37 ? )
+  ( 38 ? )
+  ( 39 ? )
+  ( 40 ? )
+ )
+ ( /4CFCA957 C2 X1 16Mhz
+  ( 1 N-000067 )
+  ( 2 N-000026 )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$component C2
+ SM*
+ C?
+ C1-1
+$endlist
+$component D3
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D4
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component IC1
+ 28DIP-ELL600
+ 28dip600
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R3
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R4
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$endfootprintlist
+}

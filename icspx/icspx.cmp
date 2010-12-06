@@ -1,0 +1,122 @@
+Cmp-Mod V01 Genere par PcbNew le Mon 06 Dec 2010 12:11:01 PM BRST
+
+BeginCmp
+TimeStamp = /4CFCA971;
+Reference = C1;
+ValeurCmp = 22pF;
+IdModule  = C1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4CFCA974;
+Reference = C2;
+ValeurCmp = 22pF;
+IdModule  = C1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4CFCDE93;
+Reference = D1;
+ValeurCmp = BI_LED;
+IdModule  = MICROSWITCH_SPST;
+EndCmp
+
+BeginCmp
+TimeStamp = /4CFC9E36;
+Reference = D3;
+ValeurCmp = LED;
+IdModule  = LED-3MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /4CFC9E38;
+Reference = D4;
+ValeurCmp = LED;
+IdModule  = LED-3MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /4CFC9A1A;
+Reference = IC1;
+ValeurCmp = ATMEGA8-P;
+IdModule  = DIP-28__300_ELL;
+EndCmp
+
+BeginCmp
+TimeStamp = /4CFCE82C;
+Reference = K1;
+ValeurCmp = CONN_3;
+IdModule  = MICROSWITCH_SPST;
+EndCmp
+
+BeginCmp
+TimeStamp = /4CFC9C95;
+Reference = P1;
+ValeurCmp = CONN_6;
+IdModule  = SIL-6;
+EndCmp
+
+BeginCmp
+TimeStamp = /4CFC9A97;
+Reference = P2;
+ValeurCmp = D0;
+IdModule  = SIL-8-BIG;
+EndCmp
+
+BeginCmp
+TimeStamp = /4CFC9DDC;
+Reference = P3;
+ValeurCmp = CONN_4;
+IdModule  = SIL-3;
+EndCmp
+
+BeginCmp
+TimeStamp = /4CFCE83B;
+Reference = P4;
+ValeurCmp = CONN_2;
+IdModule  = SIL-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /4CFC9E05;
+Reference = R1;
+ValeurCmp = 220R;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /4CFC9E0F;
+Reference = R2;
+ValeurCmp = 1k;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /4CFC9E15;
+Reference = R3;
+ValeurCmp = 1k;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /4CFCAB68;
+Reference = R4;
+ValeurCmp = 10k;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /4CFCAD6F;
+Reference = U1;
+ValeurCmp = ATMEGA16;
+IdModule  = DIP-40__600_ELL;
+EndCmp
+
+BeginCmp
+TimeStamp = /4CFCA957;
+Reference = X1;
+ValeurCmp = 16Mhz;
+IdModule  = C2;
+EndCmp
+
+EndListe
