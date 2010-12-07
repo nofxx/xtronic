@@ -1,4 +1,4 @@
-Cmp-Mod V01 Genere par PcbNew le Sun 05 Dec 2010 12:11:38 AM BRST
+Cmp-Mod V01 Genere par PcbNew le Tue 07 Dec 2010 07:46:01 AM BRST
 
 BeginCmp
 TimeStamp = /4CF847A3;
@@ -64,6 +64,13 @@ IdModule  = C2;
 EndCmp
 
 BeginCmp
+TimeStamp = /4CFDE782;
+Reference = C10;
+ValeurCmp = CP;
+IdModule  = C1V7;
+EndCmp
+
+BeginCmp
 TimeStamp = /4CF852E1;
 Reference = D2;
 ValeurCmp = LED;
@@ -75,6 +82,20 @@ TimeStamp = /4CFA4424;
 Reference = D3;
 ValeurCmp = BRIDGE;
 IdModule  = PIN_ARRAY_2X2;
+EndCmp
+
+BeginCmp
+TimeStamp = /4CFDE713;
+Reference = D4;
+ValeurCmp = ZENER;
+IdModule  = D3;
+EndCmp
+
+BeginCmp
+TimeStamp = /4CFDE5CB;
+Reference = D5;
+ValeurCmp = ZENER;
+IdModule  = D3;
 EndCmp
 
 BeginCmp
@@ -127,6 +148,20 @@ IdModule  = pin_array_3x2;
 EndCmp
 
 BeginCmp
+TimeStamp = /4CFDE64D;
+Reference = P6;
+ValeurCmp = USB;
+IdModule  = PIN_ARRAY_2X2;
+EndCmp
+
+BeginCmp
+TimeStamp = /4CFDE877;
+Reference = P7;
+ValeurCmp = CONN_2;
+IdModule  = SIL-2;
+EndCmp
+
+BeginCmp
 TimeStamp = /4CF8481A;
 Reference = R1;
 ValeurCmp = R;
@@ -137,6 +172,34 @@ BeginCmp
 TimeStamp = /4CF852D9;
 Reference = R2;
 ValeurCmp = R;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /4CFDE779;
+Reference = R3;
+ValeurCmp = 1M;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /4CFDE73D;
+Reference = R4;
+ValeurCmp = 1M;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /4CFDE721;
+Reference = R5;
+ValeurCmp = 68R;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /4CFDE725;
+Reference = R6;
+ValeurCmp = 68R;
 IdModule  = R3;
 EndCmp
 
