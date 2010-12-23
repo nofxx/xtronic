@@ -1,4 +1,4 @@
-PCBNEW-BOARD Version 1 date Tue 07 Dec 2010 08:57:01 PM BRST
+PCBNEW-BOARD Version 1 date Thu 23 Dec 2010 06:15:16 AM BRST
 
 # Created by Pcbnew(2010-04-21 BZR 23xx)-stable
 
@@ -2567,7 +2567,7 @@ ZLayer 0
 ZAux 9 E
 ZClearance 394 T
 ZMinThickness 100
-ZOptions 1 16 S 394 200
+ZOptions 1 16 F 394 200
 ZCorner 68500 32500 0
 ZCorner 68500 31500 0
 ZCorner 69500 30500 0
