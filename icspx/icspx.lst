@@ -1,0 +1,49 @@
+eeschema (2010-04-21 BZR 23xx)-stable  >> Creation date: Thu 23 Dec 2010 05:57:20 AM BRST
+
+#Cmp ( order = Reference )
+| C1         100n        
+| D1         LED         
+| D2         LED         
+| D3         BI_LED      
+| D4         LED         
+| K1         EXTPWD      
+| P1         ADC         
+| P2         POWER       
+| P5         D1          
+| P6         D0          
+| P7         CONN_2      
+| P8         ICSP        
+| R1         270R        
+| R2         220R        
+| R3         1k          
+| R4         1k          
+| S1         SUPP20      
+| S2         SUPP28      
+| S3         SUPP40      
+| SW1        SW_PUSH     
+#End Cmp
+
+#Cmp ( order = Value )
+| 100n         C1        
+| 1k           R3        
+| 1k           R4        
+| 220R         R2        
+| 270R         R1        
+| ADC          P1        
+| BI_LED       D3        
+| CONN_2       P7        
+| D0           P6        
+| D1           P5        
+| EXTPWD       K1        
+| ICSP         P8        
+| LED          D1        
+| LED          D2        
+| LED          D4        
+| POWER        P2        
+| SUPP20       S1        
+| SUPP28       S2        
+| SUPP40       S3        
+| SW_PUSH      SW1       
+#End Cmp
+
+#End List
