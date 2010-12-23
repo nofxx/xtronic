@@ -27,3 +27,4 @@ semantic.cache
 *.000
 $savepcb.brd
 *cache.lib
+*.ps
