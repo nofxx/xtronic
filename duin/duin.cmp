@@ -1,23 +1,23 @@
-Cmp-Mod V01 Created by CvPCB (2010-04-21 BZR 23xx)-stable date = Tue 14 Dec 2010 01:09:41 AM BRST
+Cmp-Mod V01 Created by CvPCB (2010-04-21 BZR 23xx)-stable date = Thu 23 Dec 2010 06:47:54 AM BRST
 
 BeginCmp
 TimeStamp = /4CF847A3;
 Reference = C1;
-ValeurCmp = C;
+ValeurCmp = 22p;
 IdModule  = C1;
 EndCmp
 
 BeginCmp
 TimeStamp = /4CF847AD;
 Reference = C2;
-ValeurCmp = C;
+ValeurCmp = 22p;
 IdModule  = C1;
 EndCmp
 
 BeginCmp
 TimeStamp = /4CF847E8;
 Reference = C3;
-ValeurCmp = 100nF;
+ValeurCmp = 100n;
 IdModule  = C1;
 EndCmp
 
@@ -50,24 +50,17 @@ IdModule  = C1;
 EndCmp
 
 BeginCmp
-TimeStamp = /4CFA4444;
-Reference = C8;
-ValeurCmp = C;
-IdModule  = C1;
-EndCmp
-
-BeginCmp
-TimeStamp = /4CFA4448;
-Reference = C9;
-ValeurCmp = C;
-IdModule  = C2;
-EndCmp
-
-BeginCmp
 TimeStamp = /4CFDE782;
 Reference = C10;
 ValeurCmp = CP;
 IdModule  = C1V7;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D130637;
+Reference = C11;
+ValeurCmp = C;
+IdModule  = C1;
 EndCmp
 
 BeginCmp
@@ -96,13 +89,6 @@ TimeStamp = /4CFDE5CB;
 Reference = D5;
 ValeurCmp = ZENER;
 IdModule  = D3;
-EndCmp
-
-BeginCmp
-TimeStamp = /4CFE300E;
-Reference = D6;
-ValeurCmp = LED;
-IdModule  = LED-3MM;
 EndCmp
 
 BeginCmp
@@ -164,21 +150,21 @@ EndCmp
 BeginCmp
 TimeStamp = /4CFDE877;
 Reference = P7;
-ValeurCmp = CONN_2;
-IdModule  = SIL-2;
+ValeurCmp = BOOTLOADER;
+IdModule  = SIL-3;
 EndCmp
 
 BeginCmp
 TimeStamp = /4CF8481A;
 Reference = R1;
-ValeurCmp = R;
+ValeurCmp = 10k;
 IdModule  = R3;
 EndCmp
 
 BeginCmp
 TimeStamp = /4CF852D9;
 Reference = R2;
-ValeurCmp = R;
+ValeurCmp = 1k;
 IdModule  = R3;
 EndCmp
 
@@ -197,22 +183,15 @@ IdModule  = R3;
 EndCmp
 
 BeginCmp
-TimeStamp = /4CFDE725;
-Reference = R6;
+TimeStamp = /4CFDE721;
+Reference = R5;
 ValeurCmp = 68R;
 IdModule  = R3;
 EndCmp
 
 BeginCmp
-TimeStamp = /4CFE2FFF;
-Reference = R7;
-ValeurCmp = R;
-IdModule  = R3;
-EndCmp
-
-BeginCmp
-TimeStamp = /4CFEAB8A;
-Reference = R10;
+TimeStamp = /4CFDE725;
+Reference = R6;
 ValeurCmp = 68R;
 IdModule  = R3;
 EndCmp
@@ -232,23 +211,9 @@ IdModule  = LM78XXV;
 EndCmp
 
 BeginCmp
-TimeStamp = /4CFA4437;
-Reference = U2;
-ValeurCmp = LD2903;
-IdModule  = TO92-REG;
-EndCmp
-
-BeginCmp
-TimeStamp = /4D06DEF6;
-Reference = U3;
-ValeurCmp = LM358;
-IdModule  = DIP-6__300_ELL;
-EndCmp
-
-BeginCmp
 TimeStamp = /4CF844D3;
 Reference = X1;
-ValeurCmp = CRYSTAL;
+ValeurCmp = 16MHz;
 IdModule  = C2;
 EndCmp
 
