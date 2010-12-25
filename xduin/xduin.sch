@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sun 05 Dec 2010 03:45:52 AM BRST
+EESchema Schematic File Version 2  date Mon 06 Dec 2010 03:45:01 AM BRST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -36,7 +36,7 @@ EELAYER END
 $Descr A4 11700 8267
 Sheet 1 1
 Title ""
-Date "5 dec 2010"
+Date "6 dec 2010"
 Rev ""
 Comp ""
 Comment1 ""
@@ -44,6 +44,24 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+$Comp
+L CONN_8 P?
+U 1 1 4CFC785A
+P 2800 5700
+F 0 "P?" V 2950 5550 60  0000 C CNN
+F 1 "CONN_8" V 2800 5700 60  0000 C CNN
+	1    2800 5700
+	-1   0    0    1   
+$EndComp
+$Comp
+L ENC28J60 U5
+U 1 1 4CFC57FD
+P 10050 3400
+F 0 "U5" H 10450 4550 60  0000 L CNN
+F 1 "ENC28J60" H 10400 2300 60  0000 L CNN
+	1    10050 3400
+	1    0    0    -1  
+$EndComp
 $Comp
 L CRYSTAL X1
 U 1 1 4CF844D3
@@ -63,10 +81,10 @@ F 1 "22pF" H 3400 4200 50  0000 L CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L CONN_3X2 P?
+L CONN_3X2 P21
 U 1 1 4CFAD2C7
 P 6000 2600
-F 0 "P?" H 6000 2850 50  0000 C CNN
+F 0 "P21" H 6000 2850 50  0000 C CNN
 F 1 "CONN_3X2" V 6000 2650 40  0000 C CNN
 	1    6000 2600
 	1    0    0    -1  
@@ -637,7 +655,7 @@ $Comp
 L CONN_8 P2
 U 1 1 4CF84988
 P 2800 5700
-F 0 "P2" V 2800 5850 60  0000 C CNN
+F 0 "P2" V 2950 5550 60  0000 C CNN
 F 1 "CONN_8" V 2800 5700 60  0000 C CNN
 	1    2800 5700
 	-1   0    0    1   

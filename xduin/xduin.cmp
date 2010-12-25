@@ -1,58 +1,58 @@
-Cmp-Mod V01 Created by CvPCB (2010-04-21 BZR 23xx)-stable date = Sat 04 Dec 2010 08:16:38 PM BRST
+Cmp-Mod V01 Created by CvPCB (2010-04-21 BZR 23xx)-stable date = Mon 06 Dec 2010 03:45:24 AM BRST
 
 BeginCmp
 TimeStamp = /4CF847E8;
 Reference = C1;
-ValeurCmp = C;
+ValeurCmp = 100nF;
 IdModule  = C1;
 EndCmp
 
 BeginCmp
 TimeStamp = /4CF84F06;
 Reference = C2;
-ValeurCmp = C;
+ValeurCmp = 100nF;
 IdModule  = C1;
 EndCmp
 
 BeginCmp
 TimeStamp = /4CF84F0C;
 Reference = C3;
-ValeurCmp = C;
+ValeurCmp = 100uF;
 IdModule  = C1V7;
 EndCmp
 
 BeginCmp
 TimeStamp = /4CF847A3;
 Reference = C4;
-ValeurCmp = 22p;
+ValeurCmp = 22pF;
 IdModule  = C1;
 EndCmp
 
 BeginCmp
 TimeStamp = /4CF847AD;
 Reference = C5;
-ValeurCmp = 22p;
+ValeurCmp = 22pF;
 IdModule  = C1;
 EndCmp
 
 BeginCmp
 TimeStamp = /4CF84F42;
 Reference = C6;
-ValeurCmp = C;
+ValeurCmp = 100uF;
 IdModule  = C1V7;
 EndCmp
 
 BeginCmp
 TimeStamp = /4CF85318;
 Reference = C7;
-ValeurCmp = C;
+ValeurCmp = 100n;
 IdModule  = C2;
 EndCmp
 
 BeginCmp
 TimeStamp = /4CF9B6C2;
 Reference = C8;
-ValeurCmp = C;
+ValeurCmp = 100nF;
 IdModule  = C1;
 EndCmp
 
@@ -108,13 +108,6 @@ EndCmp
 BeginCmp
 TimeStamp = /4CFA0571;
 Reference = P6;
-ValeurCmp = CONN_1;
-IdModule  = SIL-1;
-EndCmp
-
-BeginCmp
-TimeStamp = /4CFAB971;
-Reference = P11;
 ValeurCmp = CONN_1;
 IdModule  = SIL-1;
 EndCmp
@@ -183,23 +176,37 @@ IdModule  = SIL-9;
 EndCmp
 
 BeginCmp
+TimeStamp = /4CFAD2C7;
+Reference = P21;
+ValeurCmp = CONN_3X2;
+IdModule  = pin_array_3x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /4CFC785A;
+Reference = P22;
+ValeurCmp = CONN_8;
+IdModule  = SIL-8;
+EndCmp
+
+BeginCmp
 TimeStamp = /4CF8481A;
 Reference = R1;
-ValeurCmp = R;
+ValeurCmp = 10k;
 IdModule  = R3;
 EndCmp
 
 BeginCmp
 TimeStamp = /4CF852D9;
 Reference = R2;
-ValeurCmp = R;
+ValeurCmp = 1k;
 IdModule  = R3;
 EndCmp
 
 BeginCmp
 TimeStamp = /4CF9B7E0;
 Reference = R3;
-ValeurCmp = R;
+ValeurCmp = 100k;
 IdModule  = R3;
 EndCmp
 
@@ -239,9 +246,16 @@ IdModule  = TO92-REG;
 EndCmp
 
 BeginCmp
+TimeStamp = /4CFC57FD;
+Reference = U5;
+ValeurCmp = ENC28J60;
+IdModule  = S0IC28N;
+EndCmp
+
+BeginCmp
 TimeStamp = /4CF844D3;
 Reference = X1;
-ValeurCmp = CRYSTAL;
+ValeurCmp = 16Mhz;
 IdModule  = C2;
 EndCmp
 

@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Tue 07 Dec 2010 11:54:43 PM BRST
+EESchema Schematic File Version 2  date Wed 08 Dec 2010 08:47:45 PM BRST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -29,9 +29,7 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:atmega16
 LIBS:atmega8
-LIBS:duine-cache
 EELAYER 24  0
 EELAYER END
 $Descr A4 11700 8267
@@ -45,6 +43,32 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Connection ~ 8150 6700
+Wire Wire Line
+	8150 6000 8150 6700
+Connection ~ 7350 4700
+Wire Wire Line
+	9150 6700 7850 6700
+Wire Wire Line
+	7750 4800 7750 4700
+Connection ~ 3350 1150
+Wire Wire Line
+	3350 1000 3350 1400
+Wire Wire Line
+	4650 2350 4800 2350
+Connection ~ 5150 5900
+Wire Wire Line
+	5700 5900 4950 5900
+Wire Wire Line
+	6850 2400 6850 3200
+Wire Wire Line
+	6850 1900 6850 1750
+Wire Wire Line
+	6100 1950 6200 1950
+Wire Wire Line
+	6000 2450 6100 2450
+Wire Wire Line
+	6100 3300 8350 3300
 Wire Wire Line
 	9250 6200 9150 6200
 Connection ~ 5150 5050
@@ -62,7 +86,7 @@ Wire Wire Line
 	7800 5600 7800 6000
 Connection ~ 8350 6700
 Wire Wire Line
-	7850 6300 7850 6700
+	7850 6700 7850 6300
 Connection ~ 8900 2250
 Wire Wire Line
 	9650 2550 9650 2500
@@ -91,7 +115,7 @@ Wire Wire Line
 Wire Wire Line
 	10900 3400 10900 3100
 Wire Wire Line
-	6750 2700 6600 2700
+	6600 2700 6750 2700
 Wire Wire Line
 	6600 3000 6750 3000
 Connection ~ 5150 6000
@@ -117,7 +141,7 @@ Connection ~ 4350 6500
 Wire Wire Line
 	9500 1000 9350 1000
 Wire Wire Line
-	4600 1150 3350 1150
+	3350 1150 4600 1150
 Connection ~ 1300 950 
 Wire Wire Line
 	650  950  1300 950 
@@ -130,8 +154,6 @@ Wire Wire Line
 	2500 550  1300 550 
 Wire Wire Line
 	1300 550  1300 1150
-Wire Wire Line
-	3350 1150 3350 1400
 Connection ~ 5550 1150
 Connection ~ 4500 1150
 Wire Wire Line
@@ -244,8 +266,6 @@ Wire Wire Line
 Wire Wire Line
 	4850 5950 4350 5950
 Wire Wire Line
-	5150 5900 4950 5900
-Wire Wire Line
 	4950 5900 4950 5750
 Wire Wire Line
 	4950 5750 4350 5750
@@ -307,7 +327,7 @@ Wire Wire Line
 Wire Wire Line
 	6550 3750 6250 3750
 Wire Wire Line
-	5850 4350 5850 3750
+	5850 3750 5850 4350
 Wire Wire Line
 	5700 4050 5850 4050
 Connection ~ 5850 4050
@@ -326,7 +346,7 @@ Connection ~ 5150 6100
 Wire Wire Line
 	6600 3100 6750 3100
 Wire Wire Line
-	6600 2900 6750 2900
+	4650 2800 4800 2800
 Wire Wire Line
 	6750 3700 6350 3700
 Wire Wire Line
@@ -365,8 +385,6 @@ Connection ~ 8900 3350
 Wire Wire Line
 	7850 6300 7800 6300
 Connection ~ 8000 6700
-Wire Wire Line
-	7850 6700 9150 6700
 Connection ~ 8650 6700
 Connection ~ 8150 5600
 Wire Wire Line
@@ -379,6 +397,109 @@ Wire Wire Line
 Connection ~ 5150 4850
 Wire Wire Line
 	9250 6100 9150 6100
+Wire Wire Line
+	6750 2900 6000 2900
+Wire Wire Line
+	6000 2900 6000 2700
+Wire Wire Line
+	6000 2450 6000 2250
+Wire Wire Line
+	6100 2450 6100 3400
+Wire Wire Line
+	6100 3400 8350 3400
+Wire Wire Line
+	8350 3400 8350 3300
+Wire Wire Line
+	6850 3200 5550 3200
+Connection ~ 6750 3200
+Wire Wire Line
+	6800 1450 6750 1450
+Wire Wire Line
+	5800 1550 5800 1650
+Connection ~ 5800 1550
+$Comp
+L GND #PWR01
+U 1 1 4D000AEC
+P 5800 1650
+F 0 "#PWR01" H 5800 1650 30  0001 C CNN
+F 1 "GND" H 5800 1580 30  0001 C CNN
+	1    5800 1650
+	1    0    0    -1  
+$EndComp
+Text GLabel 9150 5600 2    60   Input ~ 0
+USBVCC
+Text GLabel 9150 6700 2    60   Input ~ 0
+GND
+NoConn ~ 8350 3850
+NoConn ~ 8350 3950
+NoConn ~ 3350 2800
+NoConn ~ 3350 2700
+NoConn ~ 3350 2600
+NoConn ~ 4150 2600
+NoConn ~ 4150 2700
+NoConn ~ 4150 2800
+NoConn ~ 10100 2850
+NoConn ~ 10100 2650
+Text GLabel 6750 1450 0    60   Input ~ 0
+Vin
+Text GLabel 3350 1000 0    60   Input ~ 0
+Vin
+NoConn ~ 8350 3650
+Text GLabel 4650 2350 0    60   Input ~ 0
+PD2
+Text GLabel 5550 3200 0    60   Input ~ 0
+PB2
+Text GLabel 5700 5900 2    60   Input ~ 0
+PB2
+$Comp
+L GND #PWR02
+U 1 1 4CFFF9B1
+P 7750 4800
+F 0 "#PWR02" H 7750 4800 30  0001 C CNN
+F 1 "GND" H 7750 4730 30  0001 C CNN
+	1    7750 4800
+	1    0    0    -1  
+$EndComp
+Text GLabel 6850 1750 2    60   Input ~ 0
++5V
+$Comp
+L R R14
+U 1 1 4CFFF973
+P 6850 2150
+F 0 "R14" V 6930 2150 50  0000 C CNN
+F 1 "10k" V 6850 2150 50  0000 C CNN
+	1    6850 2150
+	1    0    0    -1  
+$EndComp
+Text GLabel 6200 1950 2    60   Input ~ 0
++3.3V
+$Comp
+L R R13
+U 1 1 4CFFF942
+P 6100 2200
+F 0 "R13" V 6180 2200 50  0000 C CNN
+F 1 "10k" V 6100 2200 50  0000 C CNN
+	1    6100 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74LS08 U4
+U 2 1 4CFF2F0A
+P 5400 2800
+F 0 "U4" H 5400 2850 60  0000 C CNN
+F 1 "74LS08" H 5400 2750 60  0000 C CNN
+	2    5400 2800
+	-1   0    0    1   
+$EndComp
+$Comp
+L 74LS08 U4
+U 1 1 4CFF2F07
+P 5400 2350
+F 0 "U4" H 5400 2400 60  0000 C CNN
+F 1 "74LS08" H 5400 2300 60  0000 C CNN
+	1    5400 2350
+	-1   0    0    1   
+$EndComp
 Text GLabel 9250 6200 2    60   Input ~ 0
 PD2
 Text GLabel 9250 6100 2    60   Input ~ 0
@@ -387,24 +508,6 @@ Text GLabel 5750 5050 2    60   Input ~ 0
 PD4
 Text GLabel 5750 4850 2    60   Input ~ 0
 PD2
-$Comp
-L GND #PWR01
-U 1 1 4CFEB7FE
-P 9150 6700
-F 0 "#PWR01" H 9150 6700 30  0001 C CNN
-F 1 "GND" H 9150 6630 30  0001 C CNN
-	1    9150 6700
-	0    -1   -1   0   
-$EndComp
-$Comp
-L GND #PWR02
-U 1 1 4CFEB7FC
-P 8150 6000
-F 0 "#PWR02" H 8150 6000 30  0001 C CNN
-F 1 "GND" H 8150 5930 30  0001 C CNN
-	1    8150 6000
-	1    0    0    -1  
-$EndComp
 $Comp
 L R R12
 U 1 1 4CFEB7C5
@@ -489,10 +592,10 @@ F 1 "INDUCTOR" V 9450 2550 40  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR03
+L GND #PWR04
 U 1 1 4CFDD4EF
 P 9450 2950
-F 0 "#PWR03" H 9450 2950 30  0001 C CNN
+F 0 "#PWR04" H 9450 2950 30  0001 C CNN
 F 1 "GND" H 9450 2880 30  0001 C CNN
 	1    9450 2950
 	0    -1   -1   0   
@@ -516,10 +619,10 @@ F 1 "100n" H 9150 3750 50  0000 L CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR04
+L GND #PWR05
 U 1 1 4CFDD4DA
 P 9300 3850
-F 0 "#PWR04" H 9300 3850 30  0001 C CNN
+F 0 "#PWR05" H 9300 3850 30  0001 C CNN
 F 1 "GND" H 9300 3780 30  0001 C CNN
 	1    9300 3850
 	0    -1   -1   0   
@@ -570,10 +673,10 @@ F 1 "RJ45" H 10400 3100 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR05
+L GND #PWR06
 U 1 1 4CFDD2A2
 P 10900 3400
-F 0 "#PWR05" H 10900 3400 30  0001 C CNN
+F 0 "#PWR06" H 10900 3400 30  0001 C CNN
 F 1 "GND" H 10900 3330 30  0001 C CNN
 	1    10900 3400
 	1    0    0    -1  
@@ -598,7 +701,7 @@ F 1 "2K0" V 6100 3250 50  0000 C CNN
 $EndComp
 Text GLabel 6600 2700 0    60   Input ~ 0
 RESET
-Text GLabel 6600 2900 0    60   Input ~ 0
+Text GLabel 4650 2800 0    60   Input ~ 0
 MISO
 Text GLabel 6600 3000 0    60   Input ~ 0
 MOSI
@@ -666,10 +769,10 @@ Text GLabel 1850 5050 1    60   Input ~ 0
 $Comp
 L CONN_3X2 P5
 U 1 1 4CFAF0AE
-P 4550 2850
-F 0 "P5" H 4550 3100 50  0000 C CNN
-F 1 "CONN_3X2" V 4550 2900 40  0000 C CNN
-	1    4550 2850
+P 3750 2750
+F 0 "P5" H 3750 3000 50  0000 C CNN
+F 1 "CONN_3X2" V 3750 2800 40  0000 C CNN
+	1    3750 2750
 	1    0    0    -1  
 $EndComp
 Text GLabel 9500 1000 2    60   Input ~ 0

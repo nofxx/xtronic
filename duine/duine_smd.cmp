@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPCB (2010-04-21 BZR 23xx)-stable date = Wed 08 Dec 2010 05:10:14 AM BRST
+Cmp-Mod V01 Created by CvPCB (2010-04-21 BZR 23xx)-stable date = Wed 08 Dec 2010 07:39:39 PM BRST
 
 BeginCmp
 TimeStamp = /4CF847A3;
@@ -116,7 +116,7 @@ BeginCmp
 TimeStamp = /4CFA4424;
 Reference = D3;
 ValeurCmp = BRIDGE;
-IdModule  = DIODE BRIDGE;
+IdModule  = DBRIDGE;
 EndCmp
 
 BeginCmp
@@ -288,6 +288,20 @@ IdModule  = SM0805;
 EndCmp
 
 BeginCmp
+TimeStamp = /4CFFF942;
+Reference = R13;
+ValeurCmp = 10k;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4CFFF973;
+Reference = R14;
+ValeurCmp = 10k;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
 TimeStamp = /4CF85056;
 Reference = SW1;
 ValeurCmp = DPST;
@@ -319,7 +333,7 @@ BeginCmp
 TimeStamp = /4CFF2F0A;
 Reference = U4;
 ValeurCmp = 74LS08;
-IdModule  = DIP-14__300_ELL;
+IdModule  = SO14E;
 EndCmp
 
 BeginCmp

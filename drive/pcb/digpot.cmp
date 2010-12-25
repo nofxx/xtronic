@@ -1,0 +1,94 @@
+Cmp-Mod V01 Created by CvPCB (2010-04-21 BZR 23xx)-stable date = Tue 30 Nov 2010 03:37:31 PM BRST
+
+BeginCmp
+TimeStamp = /4CF4B240;
+Reference = D1;
+ValeurCmp = DIODE;
+IdModule  = D3;
+EndCmp
+
+BeginCmp
+TimeStamp = /4CF4B247;
+Reference = D2;
+ValeurCmp = DIODE;
+IdModule  = D3;
+EndCmp
+
+BeginCmp
+TimeStamp = /4CF530A2;
+Reference = P1;
+ValeurCmp = CONN_2;
+IdModule  = SIL-7;
+EndCmp
+
+BeginCmp
+TimeStamp = /4CF530AE;
+Reference = P2;
+ValeurCmp = CONN_2;
+IdModule  = SIL-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /4CF4AE87;
+Reference = Q1;
+ValeurCmp = NPN;
+IdModule  = TO220_VERT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4CF4AE89;
+Reference = Q2;
+ValeurCmp = NPN;
+IdModule  = TO220_VERT;
+EndCmp
+
+BeginCmp
+TimeStamp = /4CF4AE7A;
+Reference = R1;
+ValeurCmp = R;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /4CF4AE7E;
+Reference = R2;
+ValeurCmp = R;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /4CF535F3;
+Reference = R3;
+ValeurCmp = R;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /4CF535FD;
+Reference = R4;
+ValeurCmp = R;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /4CF52FE5;
+Reference = U1;
+ValeurCmp = OPTO_DARLINGTON;
+IdModule  = DIP-6__300_ELL;
+EndCmp
+
+BeginCmp
+TimeStamp = /4CF52FEF;
+Reference = U2;
+ValeurCmp = OPTO_DARLINGTON;
+IdModule  = DIP-6__300_ELL;
+EndCmp
+
+BeginCmp
+TimeStamp = /4CF53522;
+Reference = X1;
+ValeurCmp = ARDUINOSHIELD;
+IdModule  = ARDUINOUNONC;
+EndCmp
+
+EndListe

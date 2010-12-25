@@ -1,4 +1,4 @@
-update=Mon 06 Dec 2010 06:04:47 AM BRST
+update=Tue 30 Nov 2010 05:02:20 PM BRST
 last_client=pcbnew
 [general]
 version=1
@@ -68,11 +68,11 @@ LibName27=opto
 LibName28=atmel
 LibName29=contrib
 LibName30=valves
-LibName31=atmega16
+LibName31=/home/nofxx/Downloads/arduino_shield
 [pcbnew]
 version=1
 PadDrlX=320
-PadDimH=600
+PadDimH=1260
 PadDimV=600
 BoardThickness=630
 SgPcb45=1
@@ -86,7 +86,7 @@ DrawLar=150
 EdgeLar=150
 TxtLar=120
 MSegLar=150
-LastNetListRead=xduin.net
+LastNetListRead=digpot.net
 [pcbnew/libraries]
 LibDir=
 LibName1=sockets
@@ -99,9 +99,3 @@ LibName7=display
 LibName8=valves
 LibName9=led
 LibName10=dip_sockets
-LibName11=iut
-LibName12=muonde
-LibName13=w_indicators
-LibName14=w_misc_comp
-LibName15=w_pth_diodes
-LibName16=w_to

@@ -1,0 +1,249 @@
+EESchema Schematic File Version 2  date Tue 30 Nov 2010 04:41:17 PM BRST
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:arduino_shield
+LIBS:digpot-cache
+EELAYER 24  0
+EELAYER END
+$Descr A4 11700 8267
+Sheet 1 1
+Title ""
+Date "30 nov 2010"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	4350 1000 4350 1250
+Wire Wire Line
+	1450 2750 1650 2750
+Wire Wire Line
+	1650 2750 1650 1500
+Wire Wire Line
+	5100 2650 5350 2650
+Wire Wire Line
+	5350 2650 5350 2050
+Wire Wire Line
+	5350 2050 5450 2050
+Connection ~ 4750 1350
+Wire Wire Line
+	5200 1350 4750 1350
+Connection ~ 3400 1000
+Wire Wire Line
+	3400 1000 3400 2250
+Wire Wire Line
+	3400 2250 2900 2250
+Wire Wire Line
+	2900 1600 3900 1600
+Wire Wire Line
+	4750 1150 4750 1750
+Wire Wire Line
+	5100 3750 5100 3050
+Wire Wire Line
+	4700 2550 4700 3400
+Wire Wire Line
+	4700 3400 5100 3400
+Connection ~ 5100 3400
+Wire Wire Line
+	4700 1750 5100 1750
+Wire Wire Line
+	5100 1750 5100 2250
+Connection ~ 4750 1750
+Wire Wire Line
+	2900 2850 4300 2850
+Wire Wire Line
+	4350 1000 2900 1000
+Wire Wire Line
+	4350 1250 4750 1250
+Connection ~ 4750 1250
+Wire Wire Line
+	4700 2150 5200 2150
+Wire Wire Line
+	5200 2150 5200 1550
+Wire Wire Line
+	5150 1350 5150 1850
+Connection ~ 5150 1350
+Wire Wire Line
+	5150 1850 5450 1850
+Wire Wire Line
+	1450 1700 1450 2300
+Wire Wire Line
+	1450 2300 1150 2300
+Wire Wire Line
+	1650 1500 1450 1500
+Wire Wire Line
+	1150 2500 1250 2500
+Wire Wire Line
+	1250 2500 1250 2950
+Wire Wire Line
+	1250 2950 1450 2950
+Wire Wire Line
+	3900 1600 3900 2350
+$Comp
+L R R4
+U 1 1 4CF535FD
+P 1450 2700
+F 0 "R4" V 1530 2700 50  0000 C CNN
+F 1 "R" V 1450 2700 50  0000 C CNN
+	1    1450 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R3
+U 1 1 4CF535F3
+P 1450 1450
+F 0 "R3" V 1530 1450 50  0000 C CNN
+F 1 "R" V 1450 1450 50  0000 C CNN
+	1    1450 1450
+	-1   0    0    1   
+$EndComp
+$Comp
+L ARDUINOSHIELD X1
+U 1 1 4CF53522
+P 200 2700
+F 0 "X1" H -150 3650 60  0000 C CNN
+F 1 "ARDUINOSHIELD" H 250 1750 60  0000 C CNN
+	1    200  2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_2 P2
+U 1 1 4CF530AE
+P 5800 1950
+F 0 "P2" V 5750 1950 40  0000 C CNN
+F 1 "CONN_2" V 5850 1950 40  0000 C CNN
+	1    5800 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_2 P1
+U 1 1 4CF530A2
+P 5550 1450
+F 0 "P1" V 5500 1450 40  0000 C CNN
+F 1 "CONN_2" V 5600 1450 40  0000 C CNN
+	1    5550 1450
+	1    0    0    -1  
+$EndComp
+NoConn ~ 2900 1300
+$Comp
+L OPTO_DARLINGTON U2
+U 1 1 4CF52FEF
+P 2100 2650
+F 0 "U2" H 2600 3400 60  0000 C CNN
+F 1 "OPTO_DARLINGTON" H 2200 2150 60  0000 C CNN
+	1    2100 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L OPTO_DARLINGTON U1
+U 1 1 4CF52FE5
+P 2100 1400
+F 0 "U1" H 2600 2150 60  0000 C CNN
+F 1 "OPTO_DARLINGTON" H 2200 900 60  0000 C CNN
+	1    2100 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L DIODE D2
+U 1 1 4CF4B247
+P 5100 2450
+F 0 "D2" H 5100 2550 40  0000 C CNN
+F 1 "DIODE" H 5100 2350 40  0000 C CNN
+	1    5100 2450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L DIODE D1
+U 1 1 4CF4B240
+P 4700 1950
+F 0 "D1" H 4700 2050 40  0000 C CNN
+F 1 "DIODE" H 4700 1850 40  0000 C CNN
+	1    4700 1950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND #PWR01
+U 1 1 4CF4B20A
+P 5100 3750
+F 0 "#PWR01" H 5100 3750 30  0001 C CNN
+F 1 "GND" H 5100 3680 30  0001 C CNN
+	1    5100 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L +12V #PWR02
+U 1 1 4CF4B1D9
+P 4750 1150
+F 0 "#PWR02" H 4750 1100 20  0001 C CNN
+F 1 "+12V" H 4750 1250 30  0000 C CNN
+	1    4750 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L NPN Q2
+U 1 1 4CF4AE89
+P 5000 2850
+F 0 "Q2" H 5000 2700 50  0000 R CNN
+F 1 "NPN" H 5000 3000 50  0000 R CNN
+	1    5000 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L NPN Q1
+U 1 1 4CF4AE87
+P 4600 2350
+F 0 "Q1" H 4600 2200 50  0000 R CNN
+F 1 "NPN" H 4600 2500 50  0000 R CNN
+	1    4600 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R2
+U 1 1 4CF4AE7E
+P 4550 2850
+F 0 "R2" V 4630 2850 50  0000 C CNN
+F 1 "R" V 4550 2850 50  0000 C CNN
+	1    4550 2850
+	0    1    1    0   
+$EndComp
+$Comp
+L R R1
+U 1 1 4CF4AE7A
+P 4150 2350
+F 0 "R1" V 4230 2350 50  0000 C CNN
+F 1 "R" V 4150 2350 50  0000 C CNN
+	1    4150 2350
+	0    1    1    0   
+$EndComp
+$EndSCHEMATC
