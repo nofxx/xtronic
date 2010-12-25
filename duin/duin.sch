@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Thu 23 Dec 2010 07:54:54 AM BRST
+EESchema Schematic File Version 2  date Fri 24 Dec 2010 10:08:35 PM BRST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -37,7 +37,7 @@ EELAYER END
 $Descr A4 11700 8267
 Sheet 1 1
 Title ""
-Date "23 dec 2010"
+Date "25 dec 2010"
 Rev ""
 Comp ""
 Comment1 ""
@@ -45,6 +45,8 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Wire Wire Line
+	7750 4650 6950 4650
 Connection ~ 8300 5600
 Wire Wire Line
 	8300 5600 8300 4900
@@ -69,7 +71,7 @@ Wire Wire Line
 	9900 2950 9650 2950
 Connection ~ 7500 3950
 Wire Wire Line
-	7500 3850 7500 4750
+	7500 4750 7500 3850
 Connection ~ 6000 1150
 Connection ~ 1300 1350
 Wire Wire Line
@@ -79,9 +81,6 @@ Wire Wire Line
 Connection ~ 2400 5950
 Connection ~ 1900 6550
 Connection ~ 7500 4750
-Connection ~ 7750 4450
-Wire Wire Line
-	8300 4450 6950 4450
 Wire Wire Line
 	3200 5950 3600 5950
 Wire Wire Line
@@ -92,11 +91,11 @@ Wire Wire Line
 	1650 5400 1650 5850
 Connection ~ 2150 6050
 Wire Wire Line
-	2700 6050 1650 6050
+	1650 6050 2700 6050
 Wire Wire Line
 	1900 5950 1900 6150
 Wire Wire Line
-	1650 6150 1650 6650
+	1650 6650 1650 6150
 Connection ~ 1650 6550
 Connection ~ 6550 1550
 Wire Wire Line
@@ -120,8 +119,6 @@ Wire Wire Line
 	7600 5950 7600 5600
 Wire Wire Line
 	7750 4050 6950 4050
-Wire Wire Line
-	6950 4650 7750 4650
 Wire Wire Line
 	6950 4950 7650 4950
 Wire Wire Line
@@ -149,12 +146,12 @@ Connection ~ 4500 2650
 Connection ~ 4500 3150
 Connection ~ 5550 1550
 Wire Wire Line
-	5400 1150 6800 1150
+	6800 1150 5400 1150
 Connection ~ 4200 1550
 Wire Wire Line
 	4150 2500 4150 2650
 Wire Wire Line
-	4550 3150 4150 3150
+	4150 3150 4550 3150
 Wire Wire Line
 	3800 4650 4550 4650
 Connection ~ 4550 5250
@@ -187,9 +184,9 @@ Wire Wire Line
 Wire Wire Line
 	4200 3550 3900 3550
 Wire Wire Line
-	3500 3550 3500 4150
+	3500 4150 3500 3550
 Wire Wire Line
-	4550 5350 4550 5150
+	4550 5150 4550 5350
 Wire Wire Line
 	4550 4250 4250 4250
 Wire Wire Line
@@ -203,7 +200,7 @@ Wire Wire Line
 Connection ~ 4500 1550
 Connection ~ 5000 1550
 Wire Wire Line
-	5500 2650 5500 2250
+	5500 2250 5500 2650
 Wire Wire Line
 	7350 5700 7750 5700
 Wire Wire Line
@@ -220,8 +217,6 @@ Wire Wire Line
 	7600 5200 7600 5050
 Wire Wire Line
 	7600 5050 6950 5050
-Wire Wire Line
-	7750 4750 6950 4750
 Wire Wire Line
 	7750 4550 6950 4550
 Wire Wire Line
@@ -254,10 +249,10 @@ Wire Wire Line
 Wire Wire Line
 	2150 6150 2150 6050
 Wire Wire Line
-	2700 5950 1650 5950
+	1650 5950 2700 5950
 Connection ~ 1900 5950
 Wire Wire Line
-	1650 6550 2400 6550
+	2400 6550 1650 6550
 Connection ~ 2150 6550
 Wire Wire Line
 	2400 5400 2400 5450
@@ -265,7 +260,7 @@ Connection ~ 2400 5400
 Wire Wire Line
 	3400 6050 3200 6050
 Wire Wire Line
-	8300 4250 6950 4250
+	6950 4250 8300 4250
 Connection ~ 7750 4250
 Wire Wire Line
 	7500 3750 7600 3750
@@ -308,6 +303,11 @@ Wire Wire Line
 Wire Wire Line
 	8350 4950 8350 5500
 Connection ~ 8350 5500
+Wire Wire Line
+	7750 4450 6950 4450
+Wire Wire Line
+	8300 4750 6950 4750
+Connection ~ 7750 4750
 Text GLabel 9900 2400 2    60   Input ~ 0
 +5V
 Text GLabel 8450 5600 2    60   Input ~ 0
@@ -365,14 +365,14 @@ F 1 "BOOTLOADER" V 7200 3850 40  0000 C CNN
 	1    7150 3850
 	-1   0    0    1   
 $EndComp
-Text GLabel 8300 4450 2    60   Input ~ 0
-PD4
+Text GLabel 8300 4750 2    60   Input ~ 0
+PD7
 Text GLabel 8300 4250 2    60   Input ~ 0
 PD2
 Text GLabel 3400 6050 3    60   Input ~ 0
 PD2
 Text GLabel 3600 5950 3    60   Input ~ 0
-PD4
+PD7
 $Comp
 L GND #PWR03
 U 1 1 4CFDE7A9
@@ -677,7 +677,7 @@ L CRYSTAL X1
 U 1 1 4CF844D3
 P 3900 3850
 F 0 "X1" H 3900 4000 60  0000 C CNN
-F 1 "16MHz" H 3900 3700 60  0000 C CNN
+F 1 "16..20MHz" H 3900 3700 60  0000 C CNN
 	1    3900 3850
 	0    1    1    0   
 $EndComp
