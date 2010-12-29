@@ -1,9 +1,23 @@
-Cmp-Mod V01 Created by CvPCB (2010-04-21 BZR 23xx)-stable date = Wed 22 Dec 2010 04:27:10 AM BRST
+Cmp-Mod V01 Created by CvPCB (2010-04-21 BZR 23xx)-stable date = Sun 26 Dec 2010 06:08:58 PM BRST
 
 BeginCmp
 TimeStamp = /4D1021B7;
 Reference = C1;
 ValeurCmp = 100n;
+IdModule  = C1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D179FA7;
+Reference = C2;
+ValeurCmp = C;
+IdModule  = C1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D179FAA;
+Reference = C3;
+ValeurCmp = C;
 IdModule  = C1;
 EndCmp
 
@@ -38,14 +52,14 @@ EndCmp
 BeginCmp
 TimeStamp = /4CFCE82C;
 Reference = K1;
-ValeurCmp = CONN_3;
+ValeurCmp = EXTPWD;
 IdModule  = SIL-3;
 EndCmp
 
 BeginCmp
 TimeStamp = /4CFCE83B;
 Reference = P1;
-ValeurCmp = CONN_2;
+ValeurCmp = ADC;
 IdModule  = SIL-6;
 EndCmp
 
@@ -73,21 +87,28 @@ EndCmp
 BeginCmp
 TimeStamp = /4D1057BB;
 Reference = P7;
-ValeurCmp = CONN_2;
+ValeurCmp = RXTX;
 IdModule  = SIL-2;
 EndCmp
 
 BeginCmp
 TimeStamp = /4D119460;
 Reference = P8;
-ValeurCmp = CONN_6;
+ValeurCmp = ICSP;
 IdModule  = SIL-6;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D17A013;
+Reference = P9;
+ValeurCmp = CONN_2;
+IdModule  = SIL-2;
 EndCmp
 
 BeginCmp
 TimeStamp = /4CFCAB68;
 Reference = R1;
-ValeurCmp = 270R;
+ValeurCmp = 10k;
 IdModule  = R3;
 EndCmp
 
@@ -138,6 +159,13 @@ TimeStamp = /4D1199AB;
 Reference = SW1;
 ValeurCmp = SW_PUSH;
 IdModule  = SW_PUSH_SMALL;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D179FA5;
+Reference = X1;
+ValeurCmp = CRYSTAL;
+IdModule  = C2;
 EndCmp
 
 EndListe
