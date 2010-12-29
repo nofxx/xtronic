@@ -5,6 +5,14 @@ Some electronics projects, pcb and code.
 
 == What's in the box?
 
+Duin     ->  USB SS Board AVR
+
+Duine    ->  USB/Ethernet AVR Board
+
+ICSPX    ->  AVR Bootloader Burners
+
+Stickers ->  MCUs sanity stickers
+
 2Brid    ->  2 H-Bridges on an Arduino shield.
 
 Shooter  ->  Intervalometer for Canon SLRs.
@@ -13,9 +21,7 @@ LedTest  ->  Simple stamp to test 1..3 colour(s) LEds.
 
 PinApple ->  Simple stamp to comunicate with Apple devices.
 
-
-Pwdb  ->  5/12/Variable power supply for breadboards.
-
+Pwdb     ->  5/12/Variable power supply for breadboards.
 
 
 == PCBs

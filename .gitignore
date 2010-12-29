@@ -28,3 +28,6 @@ semantic.cache
 $savepcb.brd
 *cache.lib
 *.ps
+*.o
+*.bin
+*.map

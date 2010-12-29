@@ -1,0 +1,89 @@
+Fusebits Cheatsheet
+
+> # You may have to change the order of these -U commands.
+
+
+
+> FUSEOPT_8 = -U hfuse:w:0xc0:m -U lfuse:w:0x9f:m
+> FUSEOPT_88 = -U hfuse:w:0xd6:m -U lfuse:w:0xdf:m -U efuse:w:0x00:m
+> FUSEOPT_168 = -U hfuse:w:0xd6:m -U lfuse:w:0xdf:m -U efuse:w:0x00:m
+> FUSEOPT_328 = -U lfuse:w:0xf7:m -U hfuse:w:0xda:m -U efuse:w:0x03:m
+
+atmega8: -U lfuse:w:0x7F:m -U hfuse:w:0xD8:m -U lock:w:0xCF:m
+atmega88: -U lfuse:w:0xFF:m -U hfuse:w:0xDF:m -U efuse:w:0xF8:m -U lock:w:0xCF:m
+atmega88p: -U lfuse:w:0xFF:m -U hfuse:w:0xDF:m -U efuse:w:0xF8:m -U lock:w:0xCF:m
+atmega168: -U lfuse:w:0xFF:m -U hfuse:w:0xDF:m -U efuse:w:0xF8:m -U lock:w:0xCF:m
+atmega168p: -U lfuse:w:0xFF:m -U hfuse:w:0xDF:m -U efuse:w:0xF8:m -U lock:w:0xCF:m
+
+atmega328p (4k bootloader): -U lfuse:w:0xFF:m -U hfuse:w:0xD8:m -U efuse:w:0xFF:m -U lock:w:0xCF:m
+atmega328p (2k bootloader): -U lfuse:w:0xFF:m -U hfuse:w:0xDA:m -U efuse:w:0xFF:m -U lock:w:0xCF:m
+
+
+---------------------------------------------------------------------
+ ATMega328P
+---------------------------------------------------------------------
+ Fuse extended byte:
+ 0x03 = - - - -   - 0 1 1
+                    \-+-/
+                      +------ BODLEVEL 0..2 (011 = 4.3V)
+ Fuse high byte:
+ 0xda = 1 1 0 1   1 0 1 0 <-- BOOTRST (0 = jump to bootloader at start)
+        ^ ^ ^ ^   ^ \+/
+        | | | |   |  +------- BOOTSZ 0..1 (01 = 2KB starting at 0x7800)
+        | | | |   + --------- EESAVE (don't preserve EEPROM over chip erase)
+        | | | +-------------- WDTON (1 = watchdog disabled at start)
+        | | +---------------- SPIEN (0 = allow serial programming)
+        | +------------------ DWEN (1 = debug wire disable)
+        +-------------------- RSTDISBL (1 = reset pin is enabled)
+ Fuse low byte:
+ 0xf7 = 1 1 1 1   0 1 1 1
+        ^ ^ \ /   \--+--/
+        | |  |       +------- CKSEL 3..0 (0111 = external full-swing crystal)
+        | |  +--------------- SUT 1..0 (11 = startup time 16K CK/14K + 65ms)
+        | +------------------ CKOUT (1 = clock output disabled)
+        +-------------------- CKDIV8 (1 = do not divide clock by 8)
+
+---------------------------------------------------------------------
+ ATMega8
+---------------------------------------------------------------------
+ Fuse high byte:
+ 0xc0 = 1 1 0 0   0 0 0 0 <-- BOOTRST (boot reset vector at 0x1800)
+        ^ ^ ^ ^   ^ ^ ^------ BOOTSZ0
+        | | | |   | +-------- BOOTSZ1
+        | | | |   + --------- EESAVE (preserve EEPROM over chip erase)
+        | | | +-------------- CKOPT (full output swing)
+        | | +---------------- SPIEN (allow serial programming)
+        | +------------------ WDTON (WDT not always on)
+        +-------------------- RSTDISBL (reset pin is enabled)
+ Fuse low byte:
+ 0x9f = 1 0 0 1   1 1 1 1
+        ^ ^ \ /   \--+--/
+        | |  |       +------- CKSEL 3..0 (external >8M crystal)
+        | |  +--------------- SUT 1..0 (crystal osc, BOD enabled)
+        | +------------------ BODEN (BrownOut Detector enabled)
+        +-------------------- BODLEVEL (2.7V)
+
+
+---------------------------------------------------------------------
+ ATMega88, ATMega168
+---------------------------------------------------------------------
+ Fuse extended byte:
+ 0x00 = 0 0 0 0   0 0 0 0 <-- BOOTRST (boot reset vector at 0x1800)
+                    \+/
+                     +------- BOOTSZ (00 = 2k bytes)
+ Fuse high byte:
+ 0xd6 = 1 1 0 1   0 1 1 0
+        ^ ^ ^ ^   ^ \-+-/
+        | | | |   |   +------ BODLEVEL 0..2 (110 = 1.8 V)
+        | | | |   + --------- EESAVE (preserve EEPROM over chip erase)
+        | | | +-------------- WDTON (if 0: watchdog always on)
+        | | +---------------- SPIEN (allow serial programming)
+        | +------------------ DWEN (debug wire enable)
+        +-------------------- RSTDISBL (reset pin is enabled)
+ Fuse low byte:
+ 0xdf = 1 1 0 1   1 1 1 1
+        ^ ^ \ /   \--+--/
+        | |  |       +------- CKSEL 3..0 (external >8M crystal)
+        | |  +--------------- SUT 1..0 (crystal osc, BOD enabled)
+        | +------------------ CKOUT (if 0: Clock output enabled)
+        +-------------------- CKDIV8 (if 0: divide by 8)
