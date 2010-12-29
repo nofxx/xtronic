@@ -21,7 +21,7 @@ BOOTLOADER_ADDRESS = 3800
 FUSEOPT = $(FUSEOPT_168)
 LOCKOPT = -U lock:w:0x2f:m
 
-PROGRAMMER = -c stk500v2 -P avrdoper
+PROGRAMMER = -c usbasp # stk500v2 -P avrdoper
 # PROGRAMMER contains AVRDUDE options to address your programmer
 
 FUSEOPT_8 = -U hfuse:w:0xc0:m -U lfuse:w:0x9f:m
@@ -31,6 +31,27 @@ FUSEOPT_328 = -U lfuse:w:0xf7:m -U hfuse:w:0xda:m -U efuse:w:0x03:m
 # You may have to change the order of these -U commands.
 
 #---------------------------------------------------------------------
+# ATMega32
+#---------------------------------------------------------------------
+# Fuse high byte:
+# 0xff = 1 1 0 0   1 1 1 1 <-- BOOTRST
+#        ^ ^ ^ ^   ^ ^ ^------ BOOTSZ0
+#        | | | |   | +-------- BOOTSZ1
+#        | | | |   + --------- EESAVE (preserve EEPROM over chip erase)
+#        | | | +-------------- CKOPT (full output swing)
+#        | | +---------------- SPIEN (allow serial programming)
+#        | +------------------ JTAGEN (0 Enable JTAG)
+#        +-------------------- OCDEN (1 OCD Disabled)
+#
+# Fuse low byte:
+# 0x9f = 1 0 0 1   1 1 1 1
+#        ^ ^ \ /   \--+--/
+#        | |  |       +------- CKSEL 3..0 (external >8M crystal)
+#        | |  +--------------- SUT 1..0 (crystal osc, BOD enabled)
+#        | +------------------ BODEN (BrownOut Detector enabled)
+#        +-------------------- BODLEVEL (2.7V)
+#
+#---------------------------------------------------------------------
 # ATMega8
 #---------------------------------------------------------------------
 # Fuse high byte:
@@ -38,7 +59,6 @@ FUSEOPT_328 = -U lfuse:w:0xf7:m -U hfuse:w:0xda:m -U efuse:w:0x03:m
 #        ^ ^ ^ ^   ^ ^ ^------ BOOTSZ0
 #        | | | |   | +-------- BOOTSZ1
 #        | | | |   + --------- EESAVE (preserve EEPROM over chip erase)
-#        | | | +-------------- CKOPT (full output swing)
 #        | | +---------------- SPIEN (allow serial programming)
 #        | +------------------ WDTON (WDT not always on)
 #        +-------------------- RSTDISBL (reset pin is enabled)
