@@ -50,7 +50,9 @@ void USART_Init( unsigned int baud ) {
   //UCSRC = (1 << UCSZ1) | (1 << UCSZ0);
 }
 
-void usart_send_string(char* string) {
+
+// Use sdebug to print strings.
+void sdebug(char* string) {
    int i;
    for(i = 0; string[i] != '\0'; i++) {
       USART_Transmit(string[i]);
@@ -61,10 +63,18 @@ void usart_send_string(char* string) {
 
 int main(void){
 
-  USART_Init(103); // 9600 at 16Mhz (see table on datasheet for yr xtal)
+  // See UBRR table on datasheet for yr xtal
+  //USART_Init(129);  // 9600 at 20Mhz
+  USART_Init(103);    // 9600 at 16Mhz
+  //USART_Init(51);   // 9600 at  8Mhz
+
+  // U2X = 1
+  //USART_Init(259);  // 9600 at 20Mhz
+  //USART_Init(207);  // 9600 at 16Mhz
+  //USART_Init(103);  // 9600 at  8Mhz
 
   for(;;){    /* main event loop */
-    usart_send_string("HI!");
+    sdebug("HI");
     //_delay_ms(1000);
   }
 }
