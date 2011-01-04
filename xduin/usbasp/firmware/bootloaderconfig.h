@@ -42,7 +42,7 @@ these macros are defined, the boot loader usees them.
 /* This is the port where the USB bus is connected. When you configure it to
  * "B", the registers PORTB, PINB and DDRB will be used.
  */
-#define USB_CFG_DMINUS_BIT      3
+#define USB_CFG_DMINUS_BIT      7
 /* This is the bit number in USB_CFG_IOPORT where the USB D- line is connected.
  * This may be any bit in the port.
  */
@@ -132,7 +132,7 @@ these macros are defined, the boot loader usees them.
 
 #ifndef __ASSEMBLER__   /* assembler cannot parse function definitions */
 
-#define JUMPER_BIT  4   /* jumper is connected to this bit in port D, active low */
+#define JUMPER_BIT  7   /* jumper is connected to this bit in port D, active low */
 
 #ifndef MCUCSR          /* compatibility between ATMega8 and ATMega88 */
 #   define MCUCSR   MCUSR

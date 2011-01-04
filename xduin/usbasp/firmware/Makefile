@@ -34,7 +34,7 @@ FUSEOPT_328 = -U lfuse:w:0xf7:m -U hfuse:w:0xda:m -U efuse:w:0x03:m
 # ATMega32
 #---------------------------------------------------------------------
 # Fuse high byte:
-# 0xff = 1 1 0 0   1 1 1 1 <-- BOOTRST
+# 0xda = 1 0 0 1   1 0 1 0 <-- BOOTRST (0 = jump to bootloader at start)
 #        ^ ^ ^ ^   ^ ^ ^------ BOOTSZ0
 #        | | | |   | +-------- BOOTSZ1
 #        | | | |   + --------- EESAVE (preserve EEPROM over chip erase)

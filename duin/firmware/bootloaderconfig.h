@@ -133,13 +133,15 @@ these macros are defined, the boot loader usees them.
 
 #ifndef __ASSEMBLER__   /* assembler cannot parse function definitions */
 
+#define JUMPER_BIT  7   /* jumper is connected to this bit in port D, active low */
+
 #ifndef MCUCSR          /* compatibility between ATMega8 and ATMega88 */
 #   define MCUCSR   MCUSR
 #endif
 
 static inline void  bootLoaderInit(void)
 {
-    PORTD |= (1 << 7);     /* activate pull-up */ // changed to use D- pin for USnooBie
+    PORTD |= (1 << JUMPER_BIT);     /* activate pull-up */ // changed to use D- pin for USnooBie
     if(!(MCUCSR & (1 << EXTRF)))    /* If this was not an external reset, ignore */
         leaveBootloader();
     MCUCSR = 0;                     /* clear all reset flags for next time */
@@ -150,7 +152,7 @@ static inline void  bootLoaderExit(void)
     PORTD = 0;                      /* undo bootLoaderInit() changes */
 }
 
-#define bootLoaderCondition()   ((PIND & (1 << 7)) == 0) // changed to use D- pin for USnooBie
+#define bootLoaderCondition()   ((PIND & (1 << JUMPER_BIT)) == 0) // changed to use D- pin for USnooBie
 
 #endif /* __ASSEMBLER__ */
 

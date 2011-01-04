@@ -43,6 +43,14 @@ Resistors: 1k/10k/100k
 
 
 
+Fuses
+-----
+
+Atmega32/16Mhz/SPI
+hfuse: 0xC8
+lfuse: 0x3F
+
+
 
 Fork and have fun!
 
