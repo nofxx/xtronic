@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPCB (2010-04-21 BZR 23xx)-stable date = Thu 23 Dec 2010 06:47:54 AM BRST
+Cmp-Mod V01 Genere par PcbNew le Tue 28 Dec 2010 02:41:51 AM BRST
 
 BeginCmp
 TimeStamp = /4CF847A3;
@@ -109,28 +109,28 @@ BeginCmp
 TimeStamp = /4CF83E9B;
 Reference = P1;
 ValeurCmp = ADC;
-IdModule  = SIL-8;
+IdModule  = SIL-8-BIG;
 EndCmp
 
 BeginCmp
 TimeStamp = /4CF84988;
 Reference = P2;
 ValeurCmp = CONN_8;
-IdModule  = SIL-8;
+IdModule  = SIL-8-BIG;
 EndCmp
 
 BeginCmp
 TimeStamp = /4CF8513C;
 Reference = P3;
 ValeurCmp = CONN_6;
-IdModule  = SIL-6;
+IdModule  = SIL-6-BIG;
 EndCmp
 
 BeginCmp
 TimeStamp = /4CF85130;
 Reference = P4;
 ValeurCmp = CONN_6;
-IdModule  = SIL-6;
+IdModule  = SIL-6-BIG;
 EndCmp
 
 BeginCmp

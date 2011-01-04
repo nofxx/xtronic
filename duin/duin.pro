@@ -1,4 +1,4 @@
-update=Thu 23 Dec 2010 06:15:26 AM BRST
+update=Tue 04 Jan 2011 03:03:10 AM BRST
 last_client=pcbnew
 [general]
 version=1
@@ -74,7 +74,7 @@ LibName32=atmega8
 version=1
 PadDrlX=320
 PadDimH=550
-PadDimV=550
+PadDimV=984
 BoardThickness=630
 SgPcb45=1
 TxtPcbV=800

@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Fri 24 Dec 2010 10:08:35 PM BRST
+EESchema Schematic File Version 2  date Tue 04 Jan 2011 02:59:15 AM BRST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -37,7 +37,7 @@ EELAYER END
 $Descr A4 11700 8267
 Sheet 1 1
 Title ""
-Date "25 dec 2010"
+Date "4 jan 2011"
 Rev ""
 Comp ""
 Comment1 ""
@@ -45,6 +45,8 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Text GLabel 6950 6450 0    60   Input ~ 0
+GND
 Wire Wire Line
 	7750 4650 6950 4650
 Connection ~ 8300 5600
@@ -507,14 +509,12 @@ F 1 "BRIDGE" H 2500 1350 70  0000 C CNN
 $EndComp
 Text GLabel 5800 1150 1    60   Input ~ 0
 +5V
-Text GLabel 6950 6450 2    60   Input ~ 0
-+5V
 $Comp
 L C C7
 U 1 1 4CF85318
 P 6950 6100
 F 0 "C7" H 7000 6200 50  0000 L CNN
-F 1 "C" H 7000 6000 50  0000 L CNN
+F 1 "100n" H 7000 6000 50  0000 L CNN
 	1    6950 6100
 	-1   0    0    1   
 $EndComp
