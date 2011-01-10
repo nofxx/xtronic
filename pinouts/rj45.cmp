@@ -1,0 +1,17 @@
+Cmp-Mod V01 Created by CvPCB (2010-04-21 BZR 23xx)-stable date = Mon 10 Jan 2011 06:41:46 AM BRST
+
+BeginCmp
+TimeStamp = /4D2AC5E7;
+Reference = J1;
+ValeurCmp = RJ45;
+IdModule  = RJ45_8;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D2AC5F7;
+Reference = P1;
+ValeurCmp = CONN_9;
+IdModule  = SIL-9;
+EndCmp
+
+EndListe

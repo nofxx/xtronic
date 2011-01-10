@@ -1,0 +1,253 @@
+EESchema Schematic File Version 2  date Mon 10 Jan 2011 05:39:56 AM BRST
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+EELAYER 43  0
+EELAYER END
+$Descr A4 11700 8267
+Sheet 1 1
+Title ""
+Date "10 jan 2011"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+NoConn ~ 6900 3200
+Wire Wire Line
+	3000 4050 3450 4050
+Wire Wire Line
+	3450 4050 3450 2050
+Wire Wire Line
+	3450 2050 4750 2050
+Wire Wire Line
+	3000 3850 3600 3850
+Wire Wire Line
+	3600 3850 3600 4000
+Wire Wire Line
+	3600 4000 5700 4000
+Wire Wire Line
+	3000 3650 3200 3650
+Wire Wire Line
+	3200 3650 3200 4150
+Wire Wire Line
+	3200 4150 4100 4150
+Wire Wire Line
+	3000 3450 3350 3450
+Wire Wire Line
+	3350 3450 3350 5000
+Wire Wire Line
+	3350 5000 5100 5000
+Wire Wire Line
+	5100 5000 5100 4750
+Wire Wire Line
+	3000 3250 3350 3250
+Wire Wire Line
+	3350 3250 3350 1750
+Wire Wire Line
+	3350 1750 5050 1750
+Wire Wire Line
+	5050 1750 5050 2050
+Wire Wire Line
+	3000 3050 3150 3050
+Wire Wire Line
+	3150 3050 3150 4900
+Wire Wire Line
+	3150 4900 4800 4900
+Wire Wire Line
+	4800 4900 4800 4750
+Wire Wire Line
+	3000 2850 4800 2850
+Wire Wire Line
+	4800 2850 4800 2750
+Wire Wire Line
+	4800 2750 5700 2750
+Wire Wire Line
+	3000 2750 3000 1850
+Wire Wire Line
+	3000 1850 4850 1850
+Wire Wire Line
+	4850 1850 4850 2050
+Wire Wire Line
+	4100 3050 4350 3050
+Wire Wire Line
+	4350 3050 4350 3400
+Wire Wire Line
+	4350 3400 6900 3400
+Wire Wire Line
+	4100 3250 4250 3250
+Wire Wire Line
+	4250 3250 4250 3600
+Wire Wire Line
+	4250 3600 6900 3600
+Wire Wire Line
+	4900 4750 4900 3800
+Wire Wire Line
+	4900 3800 6900 3800
+Wire Wire Line
+	6900 4000 6250 4000
+Wire Wire Line
+	6250 4000 6250 3100
+Wire Wire Line
+	6250 3100 5700 3100
+Wire Wire Line
+	6900 2900 6700 2900
+Wire Wire Line
+	6700 2900 6700 3450
+Wire Wire Line
+	6700 3450 4700 3450
+Wire Wire Line
+	4700 3450 4700 4750
+Wire Wire Line
+	6900 3100 6450 3100
+Wire Wire Line
+	6450 3100 6450 3350
+Wire Wire Line
+	6450 3350 5700 3350
+Wire Wire Line
+	4100 3550 6600 3550
+Wire Wire Line
+	6600 3550 6600 2800
+Wire Wire Line
+	6600 2800 6900 2800
+Wire Wire Line
+	5700 3700 6400 3700
+Wire Wire Line
+	6400 3700 6400 3000
+Wire Wire Line
+	6400 3000 6900 3000
+Wire Wire Line
+	4100 3750 5150 3750
+Wire Wire Line
+	5150 3750 5150 4100
+Wire Wire Line
+	5150 4100 6900 4100
+Wire Wire Line
+	5700 3000 6150 3000
+Wire Wire Line
+	6150 3000 6150 3900
+Wire Wire Line
+	6150 3900 6900 3900
+Wire Wire Line
+	6900 3700 6800 3700
+Wire Wire Line
+	6800 3700 6800 2650
+Wire Wire Line
+	6800 2650 4100 2650
+Wire Wire Line
+	4100 2650 4100 2750
+Wire Wire Line
+	6900 3500 4200 3500
+Wire Wire Line
+	4200 3500 4200 3150
+Wire Wire Line
+	4200 3150 4100 3150
+Wire Wire Line
+	6900 3300 4300 3300
+Wire Wire Line
+	4300 3300 4300 2950
+Wire Wire Line
+	4300 2950 4100 2950
+Wire Wire Line
+	5700 2850 4850 2850
+Wire Wire Line
+	4850 2850 4850 2900
+Wire Wire Line
+	4850 2900 3050 2900
+Wire Wire Line
+	3050 2900 3050 2950
+Wire Wire Line
+	3050 2950 3000 2950
+Wire Wire Line
+	4950 2050 4950 1950
+Wire Wire Line
+	4950 1950 3250 1950
+Wire Wire Line
+	3250 1950 3250 3150
+Wire Wire Line
+	3250 3150 3000 3150
+Wire Wire Line
+	5000 4750 5000 4850
+Wire Wire Line
+	5000 4850 3250 4850
+Wire Wire Line
+	3250 4850 3250 3350
+Wire Wire Line
+	3250 3350 3000 3350
+Wire Wire Line
+	4100 4050 3500 4050
+Wire Wire Line
+	3500 4050 3500 3550
+Wire Wire Line
+	3500 3550 3000 3550
+Wire Wire Line
+	5150 2050 5150 1700
+Wire Wire Line
+	5150 1700 3400 1700
+Wire Wire Line
+	3400 1700 3400 3750
+Wire Wire Line
+	3400 3750 3000 3750
+Wire Wire Line
+	5700 3900 3050 3900
+Wire Wire Line
+	3050 3900 3050 3950
+Wire Wire Line
+	3050 3950 3000 3950
+$Comp
+L ENC28J60 U1
+U 1 1 4D2AB524
+P 4850 3450
+F 0 "U1" H 5250 4600 60  0000 L CNN
+F 1 "ENC28J60" H 5200 2350 60  0000 L CNN
+	1    4850 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L SIL14 J1
+U 1 1 4D2AB51F
+P 2650 3400
+F 0 "J1" H 2700 4150 70  0000 C CNN
+F 1 "SIL14" V 2700 3400 70  0000 C CNN
+	1    2650 3400
+	-1   0    0    1   
+$EndComp
+$Comp
+L SIL14 J2
+U 1 1 4D2AB51D
+P 7250 3450
+F 0 "J2" H 7300 4200 70  0000 C CNN
+F 1 "SIL14" V 7270 3450 70  0000 C CNN
+	1    7250 3450
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

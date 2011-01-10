@@ -1,0 +1,24 @@
+Cmp-Mod V01 Created by CvPCB (2010-04-21 BZR 23xx)-stable date = Mon 10 Jan 2011 06:35:07 AM BRST
+
+BeginCmp
+TimeStamp = /4D2AC420;
+Reference = P1;
+ValeurCmp = CONN_7;
+IdModule  = SIL-7;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D2AC427;
+Reference = P2;
+ValeurCmp = CONN_7;
+IdModule  = SIL-7;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D2AC26E;
+Reference = U1;
+ValeurCmp = 74LS08;
+IdModule  = SO14E;
+EndCmp
+
+EndListe

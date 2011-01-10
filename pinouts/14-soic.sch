@@ -1,0 +1,183 @@
+EESchema Schematic File Version 2  date Mon 10 Jan 2011 06:39:26 AM BRST
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+EELAYER 43  0
+EELAYER END
+$Descr A4 11700 8267
+Sheet 1 1
+Title "noname.sch"
+Date "10 jan 2011"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L GND #PWR01
+U 1 1 4D2AC4F1
+P 9300 3800
+F 0 "#PWR01" H 9300 3800 30  0001 C CNN
+F 1 "GND" H 9300 3730 30  0001 C CNN
+	1    9300 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L VCC #PWR02
+U 1 1 4D2AC4E9
+P 2950 3600
+F 0 "#PWR02" H 2950 3700 30  0001 C CNN
+F 1 "VCC" H 2950 3700 30  0000 C CNN
+	1    2950 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2950 3500 3200 3500
+Wire Wire Line
+	3200 3500 3200 4950
+Wire Wire Line
+	3200 4950 4850 4950
+Wire Wire Line
+	2950 3300 3500 3300
+Wire Wire Line
+	3500 3300 3500 4850
+Wire Wire Line
+	3500 4850 6050 4850
+Wire Wire Line
+	2950 3100 3800 3100
+Wire Wire Line
+	3800 3100 3800 4100
+Wire Wire Line
+	3800 4100 4850 4100
+Wire Wire Line
+	9300 3700 8950 3700
+Wire Wire Line
+	8950 3700 8950 3500
+Wire Wire Line
+	8950 3500 6050 3500
+Wire Wire Line
+	9300 3500 9000 3500
+Wire Wire Line
+	9000 3500 9000 3400
+Wire Wire Line
+	9000 3400 4850 3400
+Wire Wire Line
+	9300 3300 9200 3300
+Wire Wire Line
+	9200 3300 9200 2950
+Wire Wire Line
+	9200 2950 4850 2950
+Wire Wire Line
+	4850 2750 9300 2750
+Wire Wire Line
+	9300 2750 9300 3200
+Wire Wire Line
+	6050 2850 9100 2850
+Wire Wire Line
+	9100 2850 9100 3400
+Wire Wire Line
+	9100 3400 9300 3400
+Wire Wire Line
+	9300 3600 4850 3600
+Wire Wire Line
+	6050 4200 3700 4200
+Wire Wire Line
+	3700 4200 3700 3000
+Wire Wire Line
+	3700 3000 2950 3000
+Wire Wire Line
+	4850 4300 3600 4300
+Wire Wire Line
+	3600 4300 3600 3200
+Wire Wire Line
+	3600 3200 2950 3200
+Wire Wire Line
+	4850 4750 3350 4750
+Wire Wire Line
+	3350 4750 3350 3400
+Wire Wire Line
+	3350 3400 2950 3400
+$Comp
+L 74LS08 U1
+U 1 1 4D2AC26E
+P 5450 2850
+F 0 "U1" H 5450 2900 60  0000 C CNN
+F 1 "74LS08" H 5450 2800 60  0000 C CNN
+	1    5450 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_7 P2
+U 1 1 4D2AC427
+P 9650 3500
+F 0 "P2" V 9620 3500 60  0000 C CNN
+F 1 "CONN_7" H 9720 3500 60  0000 C CNN
+	1    9650 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_7 P1
+U 1 1 4D2AC420
+P 2600 3300
+F 0 "P1" V 2570 3300 60  0000 C CNN
+F 1 "CONN_7" H 2670 3300 60  0000 C CNN
+	1    2600 3300
+	-1   0    0    1   
+$EndComp
+$Comp
+L 74LS08 U1
+U 4 1 4D2AC29A
+P 5450 4850
+F 0 "U1" H 5450 4900 60  0000 C CNN
+F 1 "74LS08" H 5450 4800 60  0000 C CNN
+	4    5450 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74LS08 U1
+U 3 1 4D2AC28E
+P 5450 4200
+F 0 "U1" H 5450 4250 60  0000 C CNN
+F 1 "74LS08" H 5450 4150 60  0000 C CNN
+	3    5450 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74LS08 U1
+U 2 1 4D2AC283
+P 5450 3500
+F 0 "U1" H 5450 3550 60  0000 C CNN
+F 1 "74LS08" H 5450 3450 60  0000 C CNN
+	2    5450 3500
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

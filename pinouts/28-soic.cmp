@@ -1,0 +1,24 @@
+Cmp-Mod V01 Created by CvPCB (2010-04-21 BZR 23xx)-stable date = Mon 10 Jan 2011 05:34:04 AM BRST
+
+BeginCmp
+TimeStamp = /4D2AB51F;
+Reference = J1;
+ValeurCmp = SIL14;
+IdModule  = SIL-14;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D2AB51D;
+Reference = J2;
+ValeurCmp = SIL14;
+IdModule  = SIL-14;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D2AB524;
+Reference = U1;
+ValeurCmp = ENC28J60;
+IdModule  = S0IC28N;
+EndCmp
+
+EndListe
