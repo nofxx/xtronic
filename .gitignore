@@ -31,3 +31,4 @@ $savepcb.brd
 *.o
 *.bin
 *.map
+*.ses

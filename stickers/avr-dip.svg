@@ -16,8 +16,8 @@
    inkscape:version="0.48.0 r9654"
    sodipodi:docname="avr-dip.svg"
    inkscape:export-filename="/home/nofxx/git/xtronic/stickers/avr-dip.png"
-   inkscape:export-xdpi="78.843369"
-   inkscape:export-ydpi="78.843369">
+   inkscape:export-xdpi="599.94769"
+   inkscape:export-ydpi="599.94769">
   <defs
      id="defs4">
     <font-face
@@ -77,16 +77,16 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="2.1680556"
-     inkscape:cx="242.20122"
-     inkscape:cy="921.59578"
+     inkscape:zoom="3.0660936"
+     inkscape:cx="251.70276"
+     inkscape:cy="1048.741"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:window-width="1920"
-     inkscape:window-height="1055"
-     inkscape:window-x="0"
-     inkscape:window-y="0"
+     inkscape:window-width="1680"
+     inkscape:window-height="1003"
+     inkscape:window-x="1920"
+     inkscape:window-y="37"
      inkscape:window-maximized="1"
      inkscape:snap-grids="true" />
   <metadata
@@ -1010,18 +1010,18 @@
        y="51.284569" />
     <text
        id="text4176"
-       transform="matrix(0,-1.0816989,0.9244717,0,0,0)"
-       style="font-size:16.540411px;fill:#000000;stroke:#000000;stroke-width:0.1102694;stroke-miterlimit:4;stroke-dasharray:none"
-       x="-58.457283"
-       y="260.98447">
+       transform="matrix(0,-1.0394726,0.96202633,0,0,0)"
+       style="font-size:17.68449211px;fill:#000000;stroke:#000000;stroke-width:0.1178966;stroke-miterlimit:4;stroke-dasharray:none"
+       x="-60.632061"
+       y="251.02974">
       <tspan
          id="tspan4178"
          textLength="5.400879"
-         y="265.1196"
-         x="-57.217358"
+         y="255.4509"
+         x="-59.306374"
          font-weight="500"
          font-size="3"
-         style="font-size:4.13510275px;font-weight:500;stroke:#000000;stroke-width:0.1102694;stroke-miterlimit:4;stroke-dasharray:none;font-family:Monaco">rst</tspan>
+         style="font-size:4.42112303px;font-weight:500;stroke:#000000;stroke-width:0.1178966;stroke-miterlimit:4;stroke-dasharray:none;font-family:Monaco">rst</tspan>
     </text>
     <rect
        style="fill:#b3ff80;fill-opacity:0.990566;stroke:#000000;stroke-width:0;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:38.29999924;stroke-opacity:1;stroke-dasharray:none"
@@ -1032,168 +1032,168 @@
        y="51.369694" />
     <text
        id="text4180"
-       transform="matrix(0,-1.0816989,0.9244717,0,0,0)"
-       style="font-size:16.540411px;fill:#000000;stroke:#000000;stroke-width:0.1102694;stroke-miterlimit:4;stroke-dasharray:none"
-       x="-58.358814"
-       y="269.82568">
+       transform="matrix(0,-1.0394726,0.96202632,0,0,0)"
+       style="font-size:17.68449211px;fill:#000000;stroke:#000000;stroke-width:0.1178966;stroke-miterlimit:4;stroke-dasharray:none"
+       x="-60.605217"
+       y="259.29593">
       <tspan
          id="tspan4182"
          textLength="5.400879"
-         y="273.96082"
-         x="-57.118889"
+         y="263.7171"
+         x="-59.27953"
          font-weight="500"
          font-size="3"
-         style="font-size:4.13510275px;font-weight:500;stroke:#000000;stroke-width:0.1102694;stroke-miterlimit:4;stroke-dasharray:none;font-family:Monaco">rxd</tspan>
+         style="font-size:4.42112303px;font-weight:500;stroke:#000000;stroke-width:0.1178966;stroke-miterlimit:4;stroke-dasharray:none;font-family:Monaco">rxd</tspan>
     </text>
     <text
        id="text4184"
-       transform="matrix(0,-1.0816989,0.9244717,0,0,0)"
-       style="font-size:16.540411px;fill:#000000;stroke:#000000;stroke-width:0.1102694;stroke-miterlimit:4;stroke-dasharray:none"
-       x="-58.358814"
-       y="279.74994">
+       transform="matrix(0,-1.0394726,0.96202632,0,0,0)"
+       style="font-size:17.68449211px;fill:#000000;stroke:#000000;stroke-width:0.1178966;stroke-miterlimit:4;stroke-dasharray:none"
+       x="-60.448338"
+       y="268.80481">
       <tspan
          id="tspan4186"
          textLength="5.400879"
-         y="283.88507"
-         x="-57.118889"
+         y="273.22595"
+         x="-59.12265"
          font-weight="500"
          font-size="3"
-         style="font-size:4.13510275px;font-weight:500;stroke:#000000;stroke-width:0.1102694;stroke-miterlimit:4;stroke-dasharray:none;font-family:Monaco">txd</tspan>
+         style="font-size:4.42112303px;font-weight:500;stroke:#000000;stroke-width:0.1178966;stroke-miterlimit:4;stroke-dasharray:none;font-family:Monaco">txd</tspan>
     </text>
     <text
        id="text4188"
-       transform="matrix(0,-1,1,0,0,0)"
-       style="font-size:15px;fill:#000000;stroke:#000000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none"
-       x="-49.100956"
-       y="240.95175">
+       transform="matrix(0,-1.0604179,0.94302446,0,0,0)"
+       style="font-size:16.61331749px;fill:#000000;stroke:#000000;stroke-width:0.11075547;stroke-miterlimit:4;stroke-dasharray:none"
+       x="-46.78973"
+       y="256.10965">
       <tspan
          id="tspan4190"
          textLength="5.400879"
-         y="244.70175"
-         x="-49.100956"
+         y="260.263"
+         x="-46.78973"
          font-weight="500"
          font-size="3"
-         style="font-size:3.75000000000000000px;font-weight:500;font-family:Monaco;stroke:#000000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none">ai5</tspan>
+         style="font-size:4.15332937px;font-weight:500;stroke:#000000;stroke-width:0.11075547;stroke-miterlimit:4;stroke-dasharray:none;font-family:Monaco">ai5</tspan>
     </text>
     <text
        id="text4192"
-       transform="matrix(0,-1,1,0,0,0)"
-       style="font-size:15px;fill:#000000;stroke:#000000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none"
-       x="-49.100956"
-       y="249.95175">
+       transform="matrix(0,-1.0604179,0.94302446,0,0,0)"
+       style="font-size:16.61331749px;fill:#000000;stroke:#000000;stroke-width:0.11075547;stroke-miterlimit:4;stroke-dasharray:none"
+       x="-46.635944"
+       y="265.12659">
       <tspan
          id="tspan4194"
          textLength="5.400879"
-         y="253.70175"
-         x="-49.100956"
+         y="269.27988"
+         x="-46.635944"
          font-weight="500"
          font-size="3"
-         style="font-size:3.75000000000000000px;font-weight:500;font-family:Monaco;stroke:#000000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none">ai4</tspan>
+         style="font-size:4.15332937px;font-weight:500;stroke:#000000;stroke-width:0.11075547;stroke-miterlimit:4;stroke-dasharray:none;font-family:Monaco">ai4</tspan>
     </text>
     <text
        id="text4196"
-       transform="matrix(0,-1,1,0,0,0)"
-       style="font-size:15px;fill:#000000;stroke:#000000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none"
-       x="-49.100956"
-       y="258.95175">
+       transform="matrix(0,-1.0604179,0.94302447,0,0,0)"
+       style="font-size:16.61331749px;fill:#000000;stroke:#000000;stroke-width:0.11075547;stroke-miterlimit:4;stroke-dasharray:none"
+       x="-46.866619"
+       y="274.57578">
       <tspan
          id="tspan4198"
          textLength="5.400879"
-         y="262.70175"
-         x="-49.100956"
+         y="278.72913"
+         x="-46.866619"
          font-weight="500"
          font-size="3"
-         style="font-size:3.75000000000000000px;font-weight:500;font-family:Monaco;stroke:#000000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none">ai3</tspan>
+         style="font-size:4.15332937px;font-weight:500;stroke:#000000;stroke-width:0.11075547;stroke-miterlimit:4;stroke-dasharray:none;font-family:Monaco">ai3</tspan>
     </text>
     <text
        id="text4200"
-       transform="matrix(0,-1,1,0,0,0)"
-       style="font-size:15px;fill:#000000;stroke:#000000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none"
-       x="-49.100956"
-       y="267.95175">
+       transform="matrix(0,-1.0604179,0.94302446,0,0,0)"
+       style="font-size:16.61331749px;fill:#000000;stroke:#000000;stroke-width:0.11075547;stroke-miterlimit:4;stroke-dasharray:none"
+       x="-46.712837"
+       y="283.93854">
       <tspan
          id="tspan4202"
          textLength="5.400879"
-         y="271.70175"
-         x="-49.100956"
+         y="288.09186"
+         x="-46.712837"
          font-weight="500"
          font-size="3"
-         style="font-size:3.75000000000000000px;font-weight:500;font-family:Monaco;stroke:#000000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none">ai2</tspan>
+         style="font-size:4.15332937px;font-weight:500;stroke:#000000;stroke-width:0.11075547;stroke-miterlimit:4;stroke-dasharray:none;font-family:Monaco">ai2</tspan>
     </text>
     <text
        id="text4204"
-       transform="matrix(0,-1,1,0,0,0)"
-       style="font-size:15px;fill:#000000;stroke:#000000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none"
-       x="-49.100956"
-       y="276.95175">
+       transform="matrix(0,-1.0604179,0.94302446,0,0,0)"
+       style="font-size:16.61331749px;fill:#000000;stroke:#000000;stroke-width:0.11075547;stroke-miterlimit:4;stroke-dasharray:none"
+       x="-46.635944"
+       y="293.47421">
       <tspan
          id="tspan4206"
          textLength="5.400879"
-         y="280.70175"
-         x="-49.100956"
+         y="297.62753"
+         x="-46.635944"
          font-weight="500"
          font-size="3"
-         style="font-size:3.75000000000000000px;font-weight:500;font-family:Monaco;stroke:#000000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none">ai1</tspan>
+         style="font-size:4.15332937px;font-weight:500;stroke:#000000;stroke-width:0.11075547;stroke-miterlimit:4;stroke-dasharray:none;font-family:Monaco">ai1</tspan>
     </text>
     <text
        id="text4208"
-       transform="matrix(0,-1,1,0,0,0)"
-       style="font-size:15px;fill:#000000;stroke:#000000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none"
-       x="-49.100956"
-       y="285.95175">
+       transform="matrix(0,-1.0604179,0.94302446,0,0,0)"
+       style="font-size:16.61331749px;fill:#000000;stroke:#000000;stroke-width:0.11075547;stroke-miterlimit:4;stroke-dasharray:none"
+       x="-46.866619"
+       y="303.00986">
       <tspan
          id="tspan4210"
          textLength="5.400879"
-         y="289.70175"
-         x="-49.100956"
+         y="307.16321"
+         x="-46.866619"
          font-weight="500"
          font-size="3"
-         style="font-size:3.75000000000000000px;font-weight:500;font-family:Monaco;stroke:#000000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none">ai0</tspan>
+         style="font-size:4.15332937px;font-weight:500;stroke:#000000;stroke-width:0.11075547;stroke-miterlimit:4;stroke-dasharray:none;font-family:Monaco">ai0</tspan>
     </text>
     <text
        id="text4212"
-       transform="matrix(0,-1.0816989,0.9244717,0,0,0)"
-       style="font-size:16.540411px;fill:#000000;stroke:#000000;stroke-width:0.1102694;stroke-miterlimit:4;stroke-dasharray:none"
-       x="-55.877758"
-       y="289.67422">
+       transform="matrix(0,-1.0394726,0.96202633,0,0,0)"
+       style="font-size:17.68449211px;fill:#000000;stroke:#000000;stroke-width:0.1178966;stroke-miterlimit:4;stroke-dasharray:none"
+       x="-57.717232"
+       y="277.97467">
       <tspan
          id="tspan4214"
          textLength="3.600586"
-         y="293.80933"
-         x="-55.877758"
+         y="282.39581"
+         x="-57.717232"
          font-weight="500"
          font-size="3"
-         style="font-size:4.13510275px;font-weight:500;stroke:#000000;stroke-width:0.1102694;stroke-miterlimit:4;stroke-dasharray:none;font-family:Monaco">d2</tspan>
+         style="font-size:4.42112303px;font-weight:500;stroke:#000000;stroke-width:0.1178966;stroke-miterlimit:4;stroke-dasharray:none;font-family:Monaco">d2</tspan>
     </text>
     <text
        id="text4216"
-       transform="matrix(0,-1.0816989,0.9244717,0,0,0)"
-       style="font-size:16.540411px;fill:#000000;stroke:#000000;stroke-width:0.1102694;stroke-miterlimit:4;stroke-dasharray:none"
-       x="-55.877758"
-       y="299.59848">
+       transform="matrix(0,-1.0394726,0.96202633,0,0,0)"
+       style="font-size:17.68449211px;fill:#000000;stroke:#000000;stroke-width:0.1178966;stroke-miterlimit:4;stroke-dasharray:none"
+       x="-57.952557"
+       y="287.3988">
       <tspan
          id="tspan4218"
          textLength="3.600586"
-         y="303.73358"
-         x="-55.877758"
+         y="291.81992"
+         x="-57.952557"
          font-weight="500"
          font-size="3"
-         style="font-size:4.13510275px;font-weight:500;stroke:#000000;stroke-width:0.1102694;stroke-miterlimit:4;stroke-dasharray:none;font-family:Monaco">d3</tspan>
+         style="font-size:4.42112303px;font-weight:500;stroke:#000000;stroke-width:0.1178966;stroke-miterlimit:4;stroke-dasharray:none;font-family:Monaco">d3</tspan>
     </text>
     <text
        id="text4220"
-       transform="matrix(0,-1.0816989,0.9244717,0,0,0)"
-       style="font-size:16.540411px;fill:#000000;stroke:#000000;stroke-width:0.1102694;stroke-miterlimit:4;stroke-dasharray:none"
-       x="-55.877758"
-       y="309.52274">
+       transform="matrix(0,-1.0394726,0.96202633,0,0,0)"
+       style="font-size:17.68449211px;fill:#000000;stroke:#000000;stroke-width:0.1178966;stroke-miterlimit:4;stroke-dasharray:none"
+       x="-58.030994"
+       y="296.73816">
       <tspan
          id="tspan4222"
          textLength="3.600586"
-         y="313.65784"
-         x="-55.877758"
+         y="301.15927"
+         x="-58.030994"
          font-weight="500"
          font-size="3"
-         style="font-size:4.13510275px;font-weight:500;stroke:#000000;stroke-width:0.1102694;stroke-miterlimit:4;stroke-dasharray:none;font-family:Monaco">d4</tspan>
+         style="font-size:4.42112303px;font-weight:500;stroke:#000000;stroke-width:0.1178966;stroke-miterlimit:4;stroke-dasharray:none;font-family:Monaco">d4</tspan>
     </text>
     <rect
        style="fill:#1a1a1a;fill-opacity:0.990566;stroke:#000000;stroke-width:0;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:38.29999924;stroke-opacity:1;stroke-dasharray:none"
@@ -1295,32 +1295,32 @@
     <text
        id="text4248"
        transform="matrix(0,-1,1,0,0,0)"
-       style="font-size:15px;fill:#000000;stroke:#000000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none"
-       x="-49.100956"
-       y="348.95172">
+       style="font-size:15.86525345px;fill:#000000;stroke:#000000;stroke-width:0.10576837;stroke-miterlimit:4;stroke-dasharray:none"
+       x="-49.48745"
+       y="348.72556">
       <tspan
          id="tspan4250"
          textLength="5.400879"
-         y="352.70172"
-         x="-49.100956"
+         y="352.69186"
+         x="-49.48745"
          font-weight="500"
          font-size="3"
-         style="font-size:3.75000000000000000px;font-weight:500;font-family:Monaco;stroke:#000000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none">d10</tspan>
+         style="font-size:3.96631336px;font-weight:500;stroke:#000000;stroke-width:0.10576837;stroke-miterlimit:4;stroke-dasharray:none;font-family:Monaco">d10</tspan>
     </text>
     <text
        id="text4252"
        transform="matrix(0,-1,1,0,0,0)"
-       style="font-size:15px;fill:#000000;stroke:#000000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none"
-       x="-47.975956"
-       y="357.95172">
+       style="font-size:17.70383835px;fill:#000000;stroke:#000000;stroke-width:0.11802559;stroke-miterlimit:4;stroke-dasharray:none"
+       x="-48.764179"
+       y="357.24899">
       <tspan
          id="tspan4254"
          textLength="3.600586"
-         y="361.70172"
-         x="-47.975956"
+         y="361.67496"
+         x="-48.764179"
          font-weight="500"
          font-size="3"
-         style="font-size:3.75000000000000000px;font-weight:500;font-family:Monaco;stroke:#000000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none">d9</tspan>
+         style="font-size:4.42595959px;font-weight:500;stroke:#000000;stroke-width:0.11802559;stroke-miterlimit:4;stroke-dasharray:none;font-family:Monaco">d9</tspan>
     </text>
     <rect
        style="fill:#1a1a1a;fill-opacity:0.990566;stroke:#000000;stroke-width:0;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:38.29999924;stroke-opacity:1;stroke-dasharray:none"
@@ -1346,108 +1346,108 @@
     </text>
     <text
        id="text4260"
-       transform="matrix(0,-1,1,0,0,0)"
-       style="font-size:20.20852660999999983px;fill:#000000;stroke:#000000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none"
-       x="-61.923458"
-       y="293.26114">
+       transform="matrix(0,-0.97469498,1.025962,0,0,0)"
+       style="font-size:21.30324936px;fill:#000000;stroke:#000000;stroke-width:0.10541715;stroke-miterlimit:4;stroke-dasharray:none"
+       x="-63.530334"
+       y="285.66736">
       <tspan
          id="tspan4262"
          textLength="5.400879"
-         y="298.31326"
-         x="-61.923458"
+         y="290.99316"
+         x="-63.530334"
          font-weight="500"
          font-size="3"
-         style="font-size:5.05213164999999975px;font-weight:500;stroke:#000000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;font-family:Monaco">vcc</tspan>
+         style="font-size:5.32581234px;font-weight:500;stroke:#000000;stroke-width:0.10541715;stroke-miterlimit:4;stroke-dasharray:none;font-family:Monaco">vcc</tspan>
     </text>
     <text
        id="text4264"
        transform="matrix(0,-1,1,0,0,0)"
-       style="font-size:15px;fill:#000000;stroke:#000000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none"
-       x="-61.475956"
-       y="312.95175">
+       style="font-size:16.45078087px;fill:#000000;stroke:#000000;stroke-width:0.10967188;stroke-miterlimit:4;stroke-dasharray:none"
+       x="-61.072144"
+       y="312.38074">
       <tspan
          id="tspan4266"
          textLength="5.400879"
-         y="316.70175"
-         x="-61.475956"
+         y="316.49344"
+         x="-61.072144"
          font-weight="500"
          font-size="3"
-         style="font-size:3.75000000000000000px;font-weight:500;font-family:Monaco;stroke:#000000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none">xt1</tspan>
+         style="font-size:4.11269522px;font-weight:500;stroke:#000000;stroke-width:0.10967188;stroke-miterlimit:4;stroke-dasharray:none;font-family:Monaco">xt1</tspan>
     </text>
     <text
        id="text4268"
        transform="matrix(0,-1,1,0,0,0)"
-       style="font-size:15px;fill:#000000;stroke:#000000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none"
-       x="-61.475956"
-       y="321.95175">
+       style="font-size:16.45078087px;fill:#000000;stroke:#000000;stroke-width:0.10967188;stroke-miterlimit:4;stroke-dasharray:none"
+       x="-61.072144"
+       y="321.43582">
       <tspan
          id="tspan4270"
          textLength="5.400879"
-         y="325.70175"
-         x="-61.475956"
+         y="325.54852"
+         x="-61.072144"
          font-weight="500"
          font-size="3"
-         style="font-size:3.75000000000000000px;font-weight:500;font-family:Monaco;stroke:#000000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none">xt2</tspan>
+         style="font-size:4.11269522px;font-weight:500;stroke:#000000;stroke-width:0.10967188;stroke-miterlimit:4;stroke-dasharray:none;font-family:Monaco">xt2</tspan>
     </text>
     <text
        id="text4272"
        transform="matrix(0,-1,1,0,0,0)"
-       style="font-size:15px;fill:#000000;stroke:#000000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none"
-       x="-61.475956"
-       y="330.95175">
+       style="font-size:16.45078087px;fill:#000000;stroke:#000000;stroke-width:0.10967188;stroke-miterlimit:4;stroke-dasharray:none"
+       x="-61.235218"
+       y="330.73553">
       <tspan
          id="tspan4274"
          textLength="3.600586"
-         y="334.70175"
-         x="-60.351353"
+         y="334.84824"
+         x="-60.001846"
          font-weight="500"
          font-size="3"
-         style="font-size:3.75000000000000000px;font-weight:500;font-family:Monaco;stroke:#000000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none">d5</tspan>
+         style="font-size:4.11269522px;font-weight:500;stroke:#000000;stroke-width:0.10967188;stroke-miterlimit:4;stroke-dasharray:none;font-family:Monaco">d5</tspan>
     </text>
     <text
        id="text4276"
        transform="matrix(0,-1,1,0,0,0)"
-       style="font-size:15px;fill:#000000;stroke:#000000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none"
-       x="-61.475956"
-       y="339.95175">
+       style="font-size:16.45078087px;fill:#000000;stroke:#000000;stroke-width:0.10967188;stroke-miterlimit:4;stroke-dasharray:none"
+       x="-61.235218"
+       y="339.54602">
       <tspan
          id="tspan4278"
          textLength="3.600586"
-         y="343.70172"
-         x="-60.351353"
+         y="343.65869"
+         x="-60.001846"
          font-weight="500"
          font-size="3"
-         style="font-size:3.75000000000000000px;font-weight:500;font-family:Monaco;stroke:#000000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none">d6</tspan>
+         style="font-size:4.11269522px;font-weight:500;stroke:#000000;stroke-width:0.10967188;stroke-miterlimit:4;stroke-dasharray:none;font-family:Monaco">d6</tspan>
     </text>
     <text
        id="text4280"
        transform="matrix(0,-1,1,0,0,0)"
-       style="font-size:15px;fill:#000000;stroke:#000000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none"
-       x="-61.475956"
-       y="348.95172">
+       style="font-size:16.45078087px;fill:#000000;stroke:#000000;stroke-width:0.10967188;stroke-miterlimit:4;stroke-dasharray:none"
+       x="-61.153679"
+       y="348.51956">
       <tspan
          id="tspan4282"
          textLength="3.600586"
-         y="352.70172"
-         x="-60.351353"
+         y="352.63226"
+         x="-59.920307"
          font-weight="500"
          font-size="3"
-         style="font-size:3.75000000000000000px;font-weight:500;font-family:Monaco;stroke:#000000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none">d7</tspan>
+         style="font-size:4.11269522px;font-weight:500;stroke:#000000;stroke-width:0.10967188;stroke-miterlimit:4;stroke-dasharray:none;font-family:Monaco">d7</tspan>
     </text>
     <text
        id="text4284"
        transform="matrix(0,-1,1,0,0,0)"
-       style="font-size:15px;fill:#000000;stroke:#000000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none"
-       x="-61.475956"
-       y="357.95172">
+       style="font-size:16.45078087px;fill:#000000;stroke:#000000;stroke-width:0.10967188;stroke-miterlimit:4;stroke-dasharray:none"
+       x="-61.153679"
+       y="356.92236">
       <tspan
          id="tspan4286"
          textLength="3.600586"
-         y="361.70172"
-         x="-60.351353"
+         y="361.03506"
+         x="-59.920307"
          font-weight="500"
          font-size="3"
-         style="font-size:3.75000000000000000px;font-weight:500;font-family:Monaco;stroke:#000000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none">d8</tspan>
+         style="font-size:4.11269522px;font-weight:500;stroke:#000000;stroke-width:0.10967188;stroke-miterlimit:4;stroke-dasharray:none;font-family:Monaco">d8</tspan>
     </text>
     <path
        id="path4288"
@@ -1556,8 +1556,8 @@
          x="-46.696999"
          y="353.0939">SCK</tspan></text>
     <path
-       style="fill:none;stroke:#000000;stroke-width:0.11026941;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-       d="m 241.73609,61.118103 0,-6.563336"
+       style="fill:none;stroke:#000000;stroke-width:0.11789662;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 242.01272,60.852264 0,-6.743378"
        id="path3917-4"
        inkscape:connector-curvature="0" />
     <path
